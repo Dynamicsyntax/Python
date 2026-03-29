@@ -1,0 +1,25 @@
+# 🧮 Simple Calculator
+
+first_number = float(input("Enter 1st Number: "))
+operation = input("Enter Operation (+, -, *, /, ^, %): ")
+second_number = float(input("Enter 2nd Number: "))
+
+if operation == '+':
+    result = first_number + second_number
+elif operation == '-':
+    result = first_number - second_number
+elif operation == '*':
+    result = first_number * second_number
+elif operation == '/':
+    if second_number == 0:
+        print("❌ Division by zero is not allowed")
+    else:
+        result = first_number / second_number
+elif operation == '^':
+    result = first_number ** second_number
+elif operation == '%':
+    result = first_number % second_number
+else:
+    print("❌ Invalid Operation")
+
+print(f"✅ Your Result is: {result}")
