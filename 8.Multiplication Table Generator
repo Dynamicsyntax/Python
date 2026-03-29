@@ -1,0 +1,6 @@
+# ✖️ Multiplication Table Generator
+
+table_number = int(input("Enter a number to print its Multiplication Table: "))
+
+for i in range(1, 11):
+    print(f"{table_number} x {i} = {table_number * i}")
