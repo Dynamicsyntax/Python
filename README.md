@@ -14,8 +14,9 @@ Focus: variables, input/output, basic conditions, simple loops
 Perform addition, subtraction, multiplication, and division using user input.
 
 
-2. **Even or Odd Checker**
-   Check whether a number is even or odd using operators and if/else.
+[![2.Even or Odd Checker](https://img.shields.io/badge/⚖️-Even%20or%20Odd%20Checker-green?style=for-the-badge)](https://github.com/Dynamicsyntax/Python/blob/main/2.Even%20or%20Odd%20Checker)  
+Check whether a number is even or odd using operators and if/else.
+
 
 3. **String Reverser**
    Reverse a string using loops and string indexing.
