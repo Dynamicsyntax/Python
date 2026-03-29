@@ -14,6 +14,8 @@ They **do NOT require** functions, classes, files, modules, or advanced concepts
 
 **Focus:** variables, input/output, basic conditions, simple loops  
 
+
+
 [![String Reverser](https://img.shields.io/badge/🔄-String%20Reverser-blue?style=for-the-badge)](https://github.com/Dynamicsyntax/Python/blob/main/Level%201%3A%20Beginner%20(Fundamentals%20Practice)/3.String%20Reverser)  
 Reverse a string using loops and string indexing.
 
