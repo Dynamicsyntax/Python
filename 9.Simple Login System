@@ -1,0 +1,9 @@
+# 🔐 Simple Login System 
+
+username = input("Enter Username: ")
+password = input("Enter Password: ")
+
+if username == "admin" and password == "password":
+    print("✅ Login Successful")
+else:
+    print("❌ Login Failed")
