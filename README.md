@@ -1,4 +1,4 @@
-**Basic Python Programming**
+### **Basic Python Programming**
 Below are **30 beginner-friendly Python project ideas**, **strictly limited** to the topics you listed.
 They **do NOT require** functions, classes, files, modules, or advanced concepts.
 
