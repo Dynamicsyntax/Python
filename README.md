@@ -8,8 +8,11 @@ They **do NOT require** functions, classes, files, modules, or advanced concepts
 
 Focus: variables, input/output, basic conditions, simple loops
 
-1. **Simple Calculator**
-   Perform addition, subtraction, multiplication, and division using user input.
+## 📂 Projects
+
+[![1.Simple Calculator](https://img.shields.io/badge/🔢-Simple%20Calculator-blue?style=for-the-badge)](https://github.com/Dynamicsyntax/Python/blob/main/1.Simple%20Calculator)  
+Perform addition, subtraction, multiplication, and division using user input.
+
 
 2. **Even or Odd Checker**
    Check whether a number is even or odd using operators and if/else.
