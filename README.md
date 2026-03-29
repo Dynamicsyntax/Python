@@ -4,44 +4,38 @@ They **do NOT require** functions, classes, files, modules, or advanced concepts
 
 ---
 
-# 🟢 Level 1: Beginner (Fundamentals Practice)
-
-Focus: variables, input/output, basic conditions, simple loops
 
 ## 📂 Projects
 
-[![1.Simple Calculator](https://img.shields.io/badge/🔢-Simple%20Calculator-blue?style=for-the-badge)](https://github.com/Dynamicsyntax/Python/blob/main/1.Simple%20Calculator)  
-Perform addition, subtraction, multiplication, and division using user input.
+---
 
+# 🟢 Level 1: Beginner (Fundamentals Practice)
 
-[![2.Even or Odd Checker](https://img.shields.io/badge/⚖️-Even%20or%20Odd%20Checker-green?style=for-the-badge)](https://github.com/Dynamicsyntax/Python/blob/main/2.Even%20or%20Odd%20Checker)  
-Check whether a number is even or odd using operators and if/else.
+**Focus:** variables, input/output, basic conditions, simple loops  
 
+[![String Reverser](https://img.shields.io/badge/🔄-String%20Reverser-blue?style=for-the-badge)](https://github.com/Dynamicsyntax/Python/blob/main/Level%201%3A%20Beginner%20(Fundamentals%20Practice)/3.String%20Reverser)  
+Reverse a string using loops and string indexing.
 
-3. **String Reverser**
-   Reverse a string using loops and string indexing.
+[![Temperature Converter](https://img.shields.io/badge/🌡️-Temperature%20Converter-orange?style=for-the-badge)](https://github.com/Dynamicsyntax/Python/blob/main/Level%201%3A%20Beginner%20(Fundamentals%20Practice)/4.%20Temperature%20Converter)  
+Convert Celsius to Fahrenheit and vice versa.
 
-4. **Temperature Converter**
-   Convert Celsius to Fahrenheit and vice versa.
+[![Grade Checker](https://img.shields.io/badge/📊-Grade%20Checker-yellow?style=for-the-badge)](https://github.com/Dynamicsyntax/Python/blob/main/Level%201%3A%20Beginner%20(Fundamentals%20Practice)/5.Grade%20Checker)  
+Input marks and display grade using if/elif/else.
 
-5. **Grade Checker**
-   Input marks and display grade using if/elif/else.
+[![Number Comparison Tool](https://img.shields.io/badge/🔢-Number%20Comparison%20Tool-red?style=for-the-badge)](https://github.com/Dynamicsyntax/Python/blob/main/Level%201%3A%20Beginner%20(Fundamentals%20Practice)/6.%20Number%20Comparison%20Tool)  
+Compare two numbers and display the greater one.
 
-6. **Number Comparison Tool**
-   Compare two numbers and display the greater one.
+[![Word Counter](https://img.shields.io/badge/📝-Word%20Counter-green?style=for-the-badge)](https://github.com/Dynamicsyntax/Python/blob/main/Level%201%3A%20Beginner%20(Fundamentals%20Practice)/7.Word%20Counter)  
+Count characters and words in a sentence.
 
-7. **Word Counter**
-   Count characters and words in a sentence.
+[![Multiplication Table Generator](https://img.shields.io/badge/✖️-Multiplication%20Table%20Generator-purple?style=for-the-badge)](https://github.com/Dynamicsyntax/Python/blob/main/Level%201%3A%20Beginner%20(Fundamentals%20Practice)/8.Multiplication%20Table%20Generator)  
+Print tables using a for loop.
 
-8. **Multiplication Table Generator**
-   Print tables using a for loop.
+[![Simple Login System](https://img.shields.io/badge/🔐-Simple%20Login%20System-grey?style=for-the-badge)](https://github.com/Dynamicsyntax/Python/blob/main/Level%201%3A%20Beginner%20(Fundamentals%20Practice)/9.Simple%20Login%20System)  
+Check username and password using conditions.
 
-9. **Simple Login System**
-   Check username and password using conditions.
-
-10. **Positive / Negative / Zero Checker**
-    Identify the type of number entered.
-
+[![Positive / Negative / Zero Checker](https://img.shields.io/badge/➕➖0-Number%20Type%20Checker-pink?style=for-the-badge)](https://github.com/Dynamicsyntax/Python/blob/main/Level%201%3A%20Beginner%20(Fundamentals%20Practice)/10.Positive%20Negative%20Zero%20Checker)  
+Identify the type of number entered.
 ---
 
 # 🟡 Level 2: Intermediate (Logic Building)
