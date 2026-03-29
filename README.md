@@ -1,4 +1,5 @@
-### **Basic Python Programming**
+# **Basic Python Programming**
+
 Below are **30 beginner-friendly Python project ideas**, **strictly limited** to the topics you listed.
 They **do NOT require** functions, classes, files, modules, or advanced concepts.
 
@@ -36,6 +37,7 @@ Check username and password using conditions.
 
 [![Positive / Negative / Zero Checker](https://img.shields.io/badge/➕➖0-Number%20Type%20Checker-pink?style=for-the-badge)](https://github.com/Dynamicsyntax/Python/blob/main/Level%201%3A%20Beginner%20(Fundamentals%20Practice)/10.Positive%20Negative%20Zero%20Checker)  
 Identify the type of number entered.
+
 ---
 
 # 🟡 Level 2: Intermediate (Logic Building)
