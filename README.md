@@ -115,9 +115,15 @@ Focus: dictionaries, combined concepts, data processing
 ### ✅ All projects use ONLY:
 
 ✔ Variables & Data Types
+
 ✔ Strings & Formatting
+
 ✔ Operators
+
 ✔ if / else
+
 ✔ for / while loops
+
 ✔ Lists & List Methods
+
 ✔ Dictionaries
