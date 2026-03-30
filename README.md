@@ -53,7 +53,7 @@ Identify the type of number entered.
 
 **Focus:** lists, loops, nested conditions, string formatting  
 
-[![Level 2: Intermediate](https://img.shields.io/badge/🟡-Level%202%20Intermediate-important?style=for-the-badge)](https://github.com/Dynamicsyntax/Python/tree/main/%F0%9F%9F%A1%20Level%202%3A%20Intermediate%20(Logic%20Building))
+[![Level 2: Intermediate](https://img.shields.io/badge/🟡-Level%202%20Intermediate-yellow?style=for-the-badge)](https://github.com/Dynamicsyntax/Python/tree/main/%F0%9F%9F%A1%20Level%202%3A%20Intermediate%20(Logic%20Building))
 
 
 ---
