@@ -1,0 +1,14 @@
+# 📝 Text Analyzer
+
+text = input("Enter text: ")
+
+word_count = len(text.split())
+char_count = len(text)
+frequency = {}
+
+for word in text.split():
+    frequency[word] = frequency.get(word, 0) + 1
+
+print(f"Words: {word_count}")
+print(f"Characters: {char_count}")
+print("Word Frequencies:", frequency)
