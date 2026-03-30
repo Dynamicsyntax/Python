@@ -44,37 +44,37 @@ Identify the type of number entered.
 
 # 🟡 Level 2: Intermediate (Logic Building)
 
-Focus: lists, loops, nested conditions, string formatting
+**Focus:** lists, loops, nested conditions, string formatting  
 
-11. **To-Do List Manager**
-    Add, remove, and display tasks using a list.
+[![To-Do List Manager](https://img.shields.io/badge/📝-To--Do%20List%20Manager-blue?style=for-the-badge)](https://github.com/Dynamicsyntax/Python/blob/main/%F0%9F%9F%A1%20Level%202%3A%20Intermediate%20(Logic%20Building)/1.To-Do%20List%20Manager)  
+Add, remove, and display tasks using a list.
 
-12. **Number Guessing Game**
-    User guesses a number with loop control.
+[![Number Guessing Game](https://img.shields.io/badge/🎲-Number%20Guessing%20Game-green?style=for-the-badge)](https://github.com/Dynamicsyntax/Python/blob/main/%F0%9F%9F%A1%20Level%202%3A%20Intermediate%20(Logic%20Building)/2.Number%20Guessing%20Game)  
+User guesses a number with loop control.
 
-13. **List Statistics Tool**
-    Find sum, max, min, and average of numbers in a list.
+[![List Statistics Tool](https://img.shields.io/badge/📊-List%20Statistics%20Tool-orange?style=for-the-badge)](https://github.com/Dynamicsyntax/Python/blob/main/%F0%9F%9F%A1%20Level%202%3A%20Intermediate%20(Logic%20Building)/3.List%20Statistics%20Tool)  
+Find sum, max, min, and average of numbers in a list.
 
-14. **Palindrome Checker**
-    Check if a word or number reads the same backward.
+[![Palindrome Checker](https://img.shields.io/badge/🔄-Palindrome%20Checker-yellow?style=for-the-badge)](https://github.com/Dynamicsyntax/Python/blob/main/%F0%9F%9F%A1%20Level%202%3A%20Intermediate%20(Logic%20Building)/4.Palindrome%20Checker)  
+Check if a word or number reads the same backward.
 
-15. **Simple ATM Simulation**
-    Deposit, withdraw, and check balance.
+[![Simple ATM Simulation](https://img.shields.io/badge/🏦-ATM%20Simulation-red?style=for-the-badge)](https://github.com/Dynamicsyntax/Python/blob/main/%F0%9F%9F%A1%20Level%202%3A%20Intermediate%20(Logic%20Building)/5.Simple%20ATM%20Simulation)  
+Deposit, withdraw, and check balance.
 
-16. **Shopping Cart Program**
-    Add item prices to a list and calculate total.
+[![Shopping Cart Program](https://img.shields.io/badge/🛒-Shopping%20Cart%20Program-purple?style=for-the-badge)](https://github.com/Dynamicsyntax/Python/blob/main/%F0%9F%9F%A1%20Level%202%3A%20Intermediate%20(Logic%20Building)/6.Shopping%20Cart%20Program)  
+Add item prices to a list and calculate total.
 
-17. **Student Marks Analyzer**
-    Store marks in a list and calculate grades.
+[![Student Marks Analyzer](https://img.shields.io/badge/🎓-Student%20Marks%20Analyzer-pink?style=for-the-badge)](https://github.com/Dynamicsyntax/Python/blob/main/%F0%9F%9F%A1%20Level%202%3A%20Intermediate%20(Logic%20Building)/7.Student%20Marks%20Analyzer)  
+Store marks in a list and calculate grades.
 
-18. **Password Strength Checker**
-    Validate password length and character rules.
+[![Password Strength Checker](https://img.shields.io/badge/🔐-Password%20Strength%20Checker-grey?style=for-the-badge)](https://github.com/Dynamicsyntax/Python/blob/main/%F0%9F%9F%A1%20Level%202%3A%20Intermediate%20(Logic%20Building)/8.Password%20Strength%20Checker)  
+Validate password length and character rules.
 
-19. **Vowel & Consonant Counter**
-    Count vowels and consonants in a string.
+[![Vowel & Consonant Counter](https://img.shields.io/badge/🔤-Vowel%20%26%20Consonant%20Counter-teal?style=for-the-badge)](https://github.com/Dynamicsyntax/Python/blob/main/%F0%9F%9F%A1%20Level%202%3A%20Intermediate%20(Logic%20Building)/9.Vowel%20%26%20Consonant%20Counter)  
+Count vowels and consonants in a string.
 
-20. **Number Pattern Printer**
-    Print patterns using nested loops.
+[![Number Pattern Printer](https://img.shields.io/badge/📐-Number%20Pattern%20Printer-brown?style=for-the-badge)](https://github.com/Dynamicsyntax/Python/blob/main/%F0%9F%9F%A1%20Level%202%3A%20Intermediate%20(Logic%20Building)/10.Number%20Pattern%20Printer)  
+Print patterns using nested loops.
 
 ---
 
