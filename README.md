@@ -58,34 +58,34 @@ Identify the type of number entered.
 
 ---
 
-[![To-Do List Manager](https://img.shields.io/badge/📝-To--Do%20List%20Manager-blue?style=for-the-badge)](https://github.com/Dynamicsyntax/Python/blob/main/%F0%9F%9F%A1%20Level%202%3A%20Intermediate%20(Logic%20Building)/1.To-Do%20List%20Manager)  
+[![To-Do List Manager](https://img.shields.io/badge/📝-To--Do%20List%20Manager-yellow?style=for-the-badge)](https://github.com/Dynamicsyntax/Python/blob/main/%F0%9F%9F%A1%20Level%202%3A%20Intermediate%20(Logic%20Building)/11.To-Do%20List)  
 Add, remove, and display tasks using a list.
 
-[![Number Guessing Game](https://img.shields.io/badge/🎲-Number%20Guessing%20Game-green?style=for-the-badge)](https://github.com/Dynamicsyntax/Python/blob/main/%F0%9F%9F%A1%20Level%202%3A%20Intermediate%20(Logic%20Building)/2.Number%20Guessing%20Game)  
+[![Number Guessing Game](https://img.shields.io/badge/🎲-Number%20Guessing%20Game-yellow?style=for-the-badge)](https://github.com/Dynamicsyntax/Python/blob/main/%F0%9F%9F%A1%20Level%202%3A%20Intermediate%20(Logic%20Building)/12.Number%20Guessing%20Game)  
 User guesses a number with loop control.
 
-[![List Statistics Tool](https://img.shields.io/badge/📊-List%20Statistics%20Tool-orange?style=for-the-badge)](https://github.com/Dynamicsyntax/Python/blob/main/%F0%9F%9F%A1%20Level%202%3A%20Intermediate%20(Logic%20Building)/3.List%20Statistics%20Tool)  
+[![List Statistics Tool](https://img.shields.io/badge/📊-List%20Statistics%20Tool-yellow?style=for-the-badge)](https://github.com/Dynamicsyntax/Python/blob/main/%F0%9F%9F%A1%20Level%202%3A%20Intermediate%20(Logic%20Building)/13.Statistics%20Tool)  
 Find sum, max, min, and average of numbers in a list.
 
-[![Palindrome Checker](https://img.shields.io/badge/🔄-Palindrome%20Checker-yellow?style=for-the-badge)](https://github.com/Dynamicsyntax/Python/blob/main/%F0%9F%9F%A1%20Level%202%3A%20Intermediate%20(Logic%20Building)/4.Palindrome%20Checker)  
+[![Palindrome Checker](https://img.shields.io/badge/🔄-Palindrome%20Checker-yellow?style=for-the-badge)](https://github.com/Dynamicsyntax/Python/blob/main/%F0%9F%9F%A1%20Level%202%3A%20Intermediate%20(Logic%20Building)/14.Palindrome%20Checker)  
 Check if a word or number reads the same backward.
 
-[![Simple ATM Simulation](https://img.shields.io/badge/🏦-ATM%20Simulation-red?style=for-the-badge)](https://github.com/Dynamicsyntax/Python/blob/main/%F0%9F%9F%A1%20Level%202%3A%20Intermediate%20(Logic%20Building)/5.Simple%20ATM%20Simulation)  
+[![Simple ATM Simulation](https://img.shields.io/badge/🏦-ATM%20Simulation-yellow?style=for-the-badge)](https://github.com/Dynamicsyntax/Python/blob/main/%F0%9F%9F%A1%20Level%202%3A%20Intermediate%20(Logic%20Building)/15.ATM%20Simulation)  
 Deposit, withdraw, and check balance.
 
-[![Shopping Cart Program](https://img.shields.io/badge/🛒-Shopping%20Cart%20Program-purple?style=for-the-badge)](https://github.com/Dynamicsyntax/Python/blob/main/%F0%9F%9F%A1%20Level%202%3A%20Intermediate%20(Logic%20Building)/6.Shopping%20Cart%20Program)  
+[![Shopping Cart Program](https://img.shields.io/badge/🛒-Shopping%20Cart%20Program-yellow?style=for-the-badge)](https://github.com/Dynamicsyntax/Python/blob/main/%F0%9F%9F%A1%20Level%202%3A%20Intermediate%20(Logic%20Building)/16.Shopping%20Cart)  
 Add item prices to a list and calculate total.
 
-[![Student Marks Analyzer](https://img.shields.io/badge/🎓-Student%20Marks%20Analyzer-pink?style=for-the-badge)](https://github.com/Dynamicsyntax/Python/blob/main/%F0%9F%9F%A1%20Level%202%3A%20Intermediate%20(Logic%20Building)/7.Student%20Marks%20Analyzer)  
+[![Student Marks Analyzer](https://img.shields.io/badge/🎓-Student%20Marks%20Analyzer-yellow?style=for-the-badge)](https://github.com/Dynamicsyntax/Python/blob/main/%F0%9F%9F%A1%20Level%202%3A%20Intermediate%20(Logic%20Building)/17.Student%20Marks%20Analyzer)  
 Store marks in a list and calculate grades.
 
-[![Password Strength Checker](https://img.shields.io/badge/🔐-Password%20Strength%20Checker-grey?style=for-the-badge)](https://github.com/Dynamicsyntax/Python/blob/main/%F0%9F%9F%A1%20Level%202%3A%20Intermediate%20(Logic%20Building)/8.Password%20Strength%20Checker)  
+[![Password Strength Checker](https://img.shields.io/badge/🔐-Password%20Strength%20Checker-yellow?style=for-the-badge)](https://github.com/Dynamicsyntax/Python/blob/main/%F0%9F%9F%A1%20Level%202%3A%20Intermediate%20(Logic%20Building)/18.Password%20Strength%20Checker)  
 Validate password length and character rules.
 
-[![Vowel & Consonant Counter](https://img.shields.io/badge/🔤-Vowel%20%26%20Consonant%20Counter-teal?style=for-the-badge)](https://github.com/Dynamicsyntax/Python/blob/main/%F0%9F%9F%A1%20Level%202%3A%20Intermediate%20(Logic%20Building)/9.Vowel%20%26%20Consonant%20Counter)  
+[![Vowel & Consonant Counter](https://img.shields.io/badge/🔤-Vowel%20%26%20Consonant%20Counter-yellow?style=for-the-badge)](https://github.com/Dynamicsyntax/Python/blob/main/%F0%9F%9F%A1%20Level%202%3A%20Intermediate%20(Logic%20Building)/19.Vowel%20%26%20Consonant%20Counter)  
 Count vowels and consonants in a string.
 
-[![Number Pattern Printer](https://img.shields.io/badge/📐-Number%20Pattern%20Printer-brown?style=for-the-badge)](https://github.com/Dynamicsyntax/Python/blob/main/%F0%9F%9F%A1%20Level%202%3A%20Intermediate%20(Logic%20Building)/10.Number%20Pattern%20Printer)  
+[![Number Pattern Printer](https://img.shields.io/badge/📐-Number%20Pattern%20Printer-yellow?style=for-the-badge)](https://github.com/Dynamicsyntax/Python/blob/main/%F0%9F%9F%A1%20Level%202%3A%20Intermediate%20(Logic%20Building)/20.Number%20Pattern%20Printer)  
 Print patterns using nested loops.
 
 ---
