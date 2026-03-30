@@ -144,7 +144,6 @@ All projects in this repository are built using **fundamental Python concepts on
 
 ---
 
-✨ This closing section acts as a **summary badge of credibility**, showing that every project is grounded in beginner‑friendly fundamentals.
 
 
 ![Python](https://img.shields.io/badge/Python-3.x-blue?style=for-the-badge)
