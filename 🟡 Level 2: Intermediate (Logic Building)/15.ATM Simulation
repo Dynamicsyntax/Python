@@ -1,0 +1,36 @@
+# 🏧 ATM Simulation 
+
+balance = 1000
+pin = input("Enter PIN: ")
+
+if pin != "1234":
+    print("❌ Invalid PIN. Access denied")
+else:
+    print("1. Check Balance")
+    print("2. Withdraw")
+    print("3. Deposit")
+    print("4. Exit")
+
+    choice = input("Enter your choice: ")
+
+    if choice == "1":
+        print(f"Your balance is: {balance}")
+
+    elif choice == "2":
+        amount = int(input("Enter amount to withdraw: "))
+        if amount <= balance:
+            balance -= amount
+            print(f"✅ Withdraw successful. New balance is: {balance}")
+        else:
+            print("❌ Insufficient funds")
+
+    elif choice == "3":
+        amount = int(input("Enter amount to deposit: "))
+        balance += amount
+        print(f"✅ Deposit successful. New balance is: {balance}")
+
+    elif choice == "4":
+        print("👋 Thank you for using the ATM. Goodbye!")
+
+    else:
+        print("❌ Invalid choice. Please try again.")
