@@ -45,7 +45,7 @@ Identify the type of number entered.
 
 **Focus:** lists, loops, nested conditions, string formatting  
 
-[![Level 2: Intermediate](https://img.shields.io/badge/🟡-Level%202%20Intermediate-important?style=for-the-badge)](https://github.com/Dynamicsyntax/Python/tree/main/%F0%9F%9F%A1%20Level%202%3A%20Intermediate%20(Logic%20Building))
+[![**Level 2: Intermediate(Logic Building)**](https://img.shields.io/badge/🟡-Level%202%20Intermediate-important?style=for-the-badge)](https://github.com/Dynamicsyntax/Python/tree/main/%F0%9F%9F%A1%20Level%202%3A%20Intermediate%20(Logic%20Building))
 
 
 [![To-Do List Manager](https://img.shields.io/badge/📝-To--Do%20List%20Manager-blue?style=for-the-badge)](https://github.com/Dynamicsyntax/Python/blob/main/%F0%9F%9F%A1%20Level%202%3A%20Intermediate%20(Logic%20Building)/1.To-Do%20List%20Manager)  
