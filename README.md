@@ -92,35 +92,35 @@ Print patterns using nested loops.
 
 ---
 
-21. **Student Database System**
-    Store student names and marks using dictionaries.
+[![Student Database System](https://img.shields.io/badge/🎓-Student%20Database%20System-blue?style=for-the-badge)](https://github.com/Dynamicsyntax/Python/blob/main/%F0%9F%94%B5%20Level%203:%20Advanced%20Beginner%20(Structured%20Logic)/1.Student%20Database%20System)  
+Store student names and marks using dictionaries.
 
-22. **Word Frequency Counter**
-    Count occurrences of each word in a sentence.
+[![Word Frequency Counter](https://img.shields.io/badge/📖-Word%20Frequency%20Counter-green?style=for-the-badge)](https://github.com/Dynamicsyntax/Python/blob/main/%F0%9F%94%B5%20Level%203:%20Advanced%20Beginner%20(Structured%20Logic)/2.Word%20Frequency%20Counter)  
+Count occurrences of each word in a sentence.
 
-23. **Contact Book**
-    Add, search, and display contacts using dictionaries.
+[![Contact Book](https://img.shields.io/badge/📒-Contact%20Book-orange?style=for-the-badge)](https://github.com/Dynamicsyntax/Python/blob/main/%F0%9F%94%B5%20Level%203:%20Advanced%20Beginner%20(Structured%20Logic)/3.Contact%20Book)  
+Add, search, and display contacts using dictionaries.
 
-24. **Quiz Game**
-    Questions and answers stored in a dictionary.
+[![Quiz Game](https://img.shields.io/badge/❓-Quiz%20Game-yellow?style=for-the-badge)](https://github.com/Dynamicsyntax/Python/blob/main/%F0%9F%94%B5%20Level%203:%20Advanced%20Beginner%20(Structured%20Logic)/4.Quiz%20Game)  
+Questions and answers stored in a dictionary.
 
-25. **Expense Tracker**
-    Track categories and amounts using dictionaries and lists.
+[![Expense Tracker](https://img.shields.io/badge/💰-Expense%20Tracker-red?style=for-the-badge)](https://github.com/Dynamicsyntax/Python/blob/main/%F0%9F%94%B5%20Level%203:%20Advanced%20Beginner%20(Structured%20Logic)/5.Expense%20Tracker)  
+Track categories and amounts using dictionaries and lists.
 
-26. **Inventory Management System**
-    Store items with quantity and update stock.
+[![Inventory Management System](https://img.shields.io/badge/📦-Inventory%20Management%20System-purple?style=for-the-badge)](https://github.com/Dynamicsyntax/Python/blob/main/%F0%9F%94%B5%20Level%203:%20Advanced%20Beginner%20(Structured%20Logic)/6.Inventory%20Management%20System)  
+Store items with quantity and update stock.
 
-27. **Voting System**
-    Count votes using dictionary values.
+[![Voting System](https://img.shields.io/badge/🗳️-Voting%20System-pink?style=for-the-badge)](https://github.com/Dynamicsyntax/Python/blob/main/%F0%9F%94%B5%20Level%203:%20Advanced%20Beginner%20(Structured%20Logic)/7.Voting%20System)  
+Count votes using dictionary values.
 
-28. **Movie Rating System**
-    Store movies and ratings, calculate average rating.
+[![Movie Rating System](https://img.shields.io/badge/🎬-Movie%20Rating%20System-grey?style=for-the-badge)](https://github.com/Dynamicsyntax/Python/blob/main/%F0%9F%94%B5%20Level%203:%20Advanced%20Beginner%20(Structured%20Logic)/8.Movie%20Rating%20System)  
+Store movies and ratings, calculate average rating.
 
-29. **Attendance Tracker**
-    Track student attendance with dictionary data.
+[![Attendance Tracker](https://img.shields.io/badge/📅-Attendance%20Tracker-teal?style=for-the-badge)](https://github.com/Dynamicsyntax/Python/blob/main/%F0%9F%94%B5%20Level%203:%20Advanced%20Beginner%20(Structured%20Logic)/9.Attendance%20Tracker)  
+Track student attendance with dictionary data.
 
-30. **Text Analyzer**
-    Analyze text for word count, character count, and frequency.
+[![Text Analyzer](https://img.shields.io/badge/🔍-Text%20Analyzer-brown?style=for-the-badge)](https://github.com/Dynamicsyntax/Python/blob/main/%F0%9F%94%B5%20Level%203:%20Advanced%20Beginner%20(Structured%20Logic)/10.Text%20Analyzer)  
+Analyze text for word count, character count, and frequency.
 
 ---
 
