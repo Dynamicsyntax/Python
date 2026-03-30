@@ -1,0 +1,10 @@
+28.# 🎬 Movie Rating System
+
+movies = {
+    "Inception": [5, 4, 5],
+    "Interstellar": [4, 5, 5]
+}
+
+for movie, ratings in movies.items():
+    avg = sum(ratings) / len(ratings)
+    print(f"{movie} → Average Rating: {avg:.2f}")
