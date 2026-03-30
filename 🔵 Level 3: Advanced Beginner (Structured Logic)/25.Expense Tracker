@@ -1,0 +1,10 @@
+# 💰 Expense Tracker
+
+expenses = [
+    {"category": "Food", "amount": 500},
+    {"category": "Transport", "amount": 200}
+]
+
+total = sum(item["amount"] for item in expenses)
+print("Expenses:", expenses)
+print(f"Total Spent: {total}")
