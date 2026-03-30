@@ -129,18 +129,25 @@ Analyze text for word count, character count, and frequency.
 
 ---
 
-### ✅ All projects use ONLY:
+---
 
-✔ Variables & Data Types
+## ✅ Core Concepts Covered
 
-✔ Strings & Formatting
+All projects in this repository are built using **fundamental Python concepts only**:
 
-✔ Operators
+- ✔ **Variables & Data Types**
+- ✔ **Strings & Formatting**
+- ✔ **Operators**
+- ✔ **if / else conditions**
+- ✔ **for / while loops**
+- ✔ **Lists & List Methods**
 
-✔ if / else
+---
 
-✔ for / while loops
+✨ This closing section acts as a **summary badge of credibility**, showing that every project is grounded in beginner‑friendly fundamentals.
 
-✔ Lists & List Methods
 
-✔ Dictionaries
+![Python](https://img.shields.io/badge/Python-3.x-blue?style=for-the-badge)
+![Beginner Friendly](https://img.shields.io/badge/Beginner-Friendly-green?style=for-the-badge)
+![Learning Path](https://img.shields.io/badge/Learning-Path-yellow?style=for-the-badge)
+
