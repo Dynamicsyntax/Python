@@ -1,20 +1,20 @@
 From Foundations to AI Systems Engineering
 Welcome to the most comprehensive Python learning path on GitHub. This repository is a structured journey designed to take you from a Python Beginner to a Professional Systems & AI Engineer.
 
-🗺️ Project Navigation
+###🗺️ Project Navigation
 Click a level to jump to that section. Each project is designed to build a specific industry skill.
 
-🟢 Level 1: Foundations & Mini-Tools (1–50)
+##🟢 Level 1: Foundations & Mini-Tools (1–50)
 
-🟡 Level 2: Data Structures & File Systems (51–110)
+##🟡 Level 2: Data Structures & File Systems (51–110)
 
-🟠 Level 3: Professional Productivity & Web (111–180)
+##🟠 Level 3: Professional Productivity & Web (111–180)
 
-🔵 Level 4: Specialized AI & NLP (181–350)
+##🔵 Level 4: Specialized AI & NLP (181–350)
 
-🔴 Level 5: Smart Infrastructure & Fintech (351–450)
+##🔴 Level 5: Smart Infrastructure & Fintech (351–450)
 
-🟣 Level 6: Expert Engines & Integration (451–530)
+##🟣 Level 6: Expert Engines & Integration (451–530)
 
 ---
 
@@ -139,21 +139,6 @@ Track student attendance with dictionary data.
 
 [![Text Analyzer](https://img.shields.io/badge/🔍-Text%20Analyzer-informational?style=for-the-badge)](https://github.com/Dynamicsyntax/Python/blob/main/%F0%9F%94%B5%20Level%203%3A%20Advanced%20Beginner%20(Structured%20Logic)/30.Text%20Analyzer)  
 Analyze text for word count, character count, and frequency.
-
----
-
----
-
-## ✅ Core Concepts Covered
-
-All projects in this repository are built using **fundamental Python concepts only**:
-
-- ✔ **Variables & Data Types**
-- ✔ **Strings & Formatting**
-- ✔ **Operators**
-- ✔ **if / else conditions**
-- ✔ **for / while loops**
-- ✔ **Lists & List Methods**
 
 ---
 
