@@ -1,0 +1,34 @@
+#42. 🛒 Shopping Cart
+
+import statistics
+
+cart_prices = []
+
+print("\nShopping Cart Menu:")
+print("1. Add item price")
+print("2. View total and exit")
+
+choice = input("Enter your choice (1/2): ").strip()
+
+if choice == '1':
+    price = float(input("Enter item price: "))
+    if price >= 0:
+        cart_prices.append(price)
+        print(f"✅ Item with price ${price:.2f} added to cart.")
+    else:
+        print("❌ Price cannot be negative.")
+
+elif choice == '2':
+    total_cost = sum(cart_prices)
+    print("\n--- Your Shopping Cart ---")
+    if cart_prices:
+        print("Items prices:")
+        for i, price in enumerate(cart_prices):
+            print(f"  {i+1}. ${price:.2f}")
+        print(f"Total cost: ${total_cost:.2f}")
+    else:
+        print("Your shopping cart is empty.")
+    print("👋 Thanks for using the Shopping Cart Program. Goodbye!")
+
+else:
+    print("❌ Invalid choice. Please enter '1' or '2'.")
