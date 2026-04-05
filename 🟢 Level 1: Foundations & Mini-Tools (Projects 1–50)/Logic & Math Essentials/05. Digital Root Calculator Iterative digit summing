@@ -1,0 +1,15 @@
+#5. 🧮 Digital Root Calculator
+
+def digital_root(n):
+    # Keep summing digits until a single digit remains
+    while n >= 10:
+        n = sum(int(digit) for digit in str(n))
+    return n
+
+# Input from user
+number = int(input("Enter a number: "))
+
+# Calculate digital root
+result = digital_root(number)
+
+print(f"✅ The Digital Root of {number} is: {result}")
