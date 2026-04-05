@@ -437,5 +437,16 @@ Have an optimized solution or a 531st project idea?
 ## 📜 License
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-### 🔗 Connect with me
-[LinkedIn](www.linkedin.com/in/ziapk32) | [Twitter](https://x.com/MrFaintHuman) | [Portfolio Site](pending)
+---
+
+## 🌐 Connect with Me
+Let's collaborate! Whether you're a fellow developer, a recruiter, or a tech enthusiast, feel free to reach out.
+
+* 📍 **Location:** Lahore, Punjab, Pakistan
+* 📧 **Email:** [ziapk32@gmail.com](mailto:ziapk32@gmail.com?subject=Inquiry%20from%20GitHub%20Roadmap)
+* 💼 **LinkedIn:** [linkedin.com/in/ziapk32](https://www.linkedin.com/in/ziapk32)
+* 🐦 **X (Twitter):** [@MrFaintHuman](https://x.com/MrFaintHuman)
+* 👥 **Facebook:** [fainthuman](https://www.facebook.com/fainthuman/)
+
+---
+
