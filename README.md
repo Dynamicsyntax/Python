@@ -449,14 +449,13 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ---
 
-## 🌐 Connect with Me
-Let's collaborate! Whether you're a fellow developer, a recruiter, or a tech enthusiast, feel free to reach out.
+## 🌐 Connect & Collaborate
 
-* 📍 **Location:** Lahore, Punjab, Pakistan
-* 📧 **Email:** [ziapk32@gmail.com](mailto:ziapk32@gmail.com?subject=Inquiry%20from%20GitHub%20Roadmap)
-* 💼 **LinkedIn:** [linkedin.com/in/ziapk32](https://www.linkedin.com/in/ziapk32)
-* 🐦 **X (Twitter):** [@MrFaintHuman](https://x.com/MrFaintHuman)
-* 👥 **Facebook:** [fainthuman](https://www.facebook.com/fainthuman/)
+📍 **Lahore, Punjab, Pakistan**
+
+[![Email](https://img.shields.io/badge/Email-ziapk32%40gmail.com-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:ziapk32@gmail.com)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Profile-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/ziapk32)
+[![X](https://img.shields.io/badge/X-MrFaintHuman-000000?style=for-the-badge&logo=x&logoColor=white)](https://x.com/MrFaintHuman)
 
 ---
 
