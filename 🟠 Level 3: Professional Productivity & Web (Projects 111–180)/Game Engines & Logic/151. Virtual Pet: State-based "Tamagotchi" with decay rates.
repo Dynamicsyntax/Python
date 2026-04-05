@@ -1,0 +1,64 @@
+#151. 🐾 Virtual Pet: Tamagotchi Simulation
+
+import time
+
+class VirtualPet:
+    def __init__(self, name):
+        self.name = name
+        self.hunger = 50     # 0 = full, 100 = starving
+        self.happiness = 50  # 0 = sad, 100 = very happy
+        self.energy = 50     # 0 = exhausted, 100 = energetic
+
+    def feed(self):
+        self.hunger = max(0, self.hunger - 20)
+        print(f"🍎 You fed {self.name}. Hunger is now {self.hunger}.")
+
+    def play(self):
+        if self.energy > 10:
+            self.happiness = min(100, self.happiness + 20)
+            self.energy -= 10
+            print(f"🎮 You played with {self.name}. Happiness is now {self.happiness}.")
+        else:
+            print(f"⚠️ {self.name} is too tired to play!")
+
+    def rest(self):
+        self.energy = min(100, self.energy + 30)
+        print(f"💤 {self.name} took a nap. Energy is now {self.energy}.")
+
+    def status(self):
+        print(f"\n📊 {self.name}'s Status:")
+        print(f"   Hunger: {self.hunger}")
+        print(f"   Happiness: {self.happiness}")
+        print(f"   Energy: {self.energy}\n")
+
+    def decay(self):
+        # Natural decay over time
+        self.hunger = min(100, self.hunger + 5)
+        self.happiness = max(0, self.happiness - 3)
+        self.energy = max(0, self.energy - 2)
+
+# --- Simulation Loop ---
+pet_name = input("Name your virtual pet: ")
+pet = VirtualPet(pet_name)
+
+print(f"🐾 Welcome! You are now taking care of {pet_name}.")
+
+while True:
+    pet.status()
+    action = input("Choose an action (feed/play/rest/quit): ").strip().lower()
+
+    if action == "feed":
+        pet.feed()
+    elif action == "play":
+        pet.play()
+    elif action == "rest":
+        pet.rest()
+    elif action == "quit":
+        print(f"👋 Goodbye! {pet_name} will miss you.")
+        break
+    else:
+        print("❌ Invalid action.")
+
+    # Apply decay after each turn
+    pet.decay()
+    time.sleep(1)
