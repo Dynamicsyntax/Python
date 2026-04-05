@@ -438,4 +438,4 @@ Have an optimized solution or a 531st project idea?
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ### 🔗 Connect with me
-[LinkedIn](www.linkedin.com/in/ziapk32) | [Twitter]([your-link](https://x.com/MrFaintHuman)) | [Portfolio Site](pending)
+[LinkedIn](www.linkedin.com/in/ziapk32) | [Twitter](https://x.com/MrFaintHuman) | [Portfolio Site](pending)
