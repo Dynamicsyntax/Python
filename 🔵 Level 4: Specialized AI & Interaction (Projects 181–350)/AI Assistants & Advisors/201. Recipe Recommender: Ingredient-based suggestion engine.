@@ -1,0 +1,28 @@
+#201. 🍲 Recipe Recommender: Ingredient-based suggestion engine
+
+# Sample recipe database
+recipes = {
+    "Pasta Salad": ["pasta", "tomato", "cucumber", "olive oil", "cheese"],
+    "Omelette": ["egg", "milk", "cheese", "onion"],
+    "Fruit Smoothie": ["banana", "milk", "honey"],
+    "Grilled Cheese Sandwich": ["bread", "cheese", "butter"],
+    "Vegetable Stir Fry": ["carrot", "broccoli", "soy sauce", "onion"]
+}
+
+# Get user ingredients
+user_input = input("Enter the ingredients you have (comma separated): ").lower()
+available_ingredients = [item.strip() for item in user_input.split(",")]
+
+# Suggest recipes
+suggestions = []
+for recipe, ingredients in recipes.items():
+    if all(item in available_ingredients for item in ingredients):
+        suggestions.append(recipe)
+
+# Output results
+if suggestions:
+    print("✅ Based on your ingredients, you can make:")
+    for recipe in suggestions:
+        print(f" - {recipe}")
+else:
+    print("❌ No exact recipe matches found. Try adding more ingredients!")
