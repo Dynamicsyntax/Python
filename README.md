@@ -14,7 +14,7 @@ Click a level to jump to that section. Each project is designed to build a speci
 
 🔴 Level 5: Smart Infrastructure & Fintech (351–450)
 
-🛰️ Level 6: Expert Engines & Integration (451–530)
+🟣 Level 6: Expert Engines & Integration (451–530)
 
 ---
 
