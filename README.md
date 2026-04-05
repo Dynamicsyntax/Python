@@ -92,6 +92,9 @@ This roadmap is designed for **Active Learning**.
 * **49. Mad Libs Game:** User-input string formatting.
 * **50. BMI Calculator:** Basic formula implementation.
 </details>
+
+---
+
 ## 🟡 Level 2: Data Structures & File Systems (Projects 51–110)
 > **Mastery:** Efficiency, algorithmic complexity ($O(n)$), and local data persistence.
 
@@ -245,6 +248,9 @@ This roadmap is designed for **Active Learning**.
 * **179. Graphic Hangman:** Step-by-step visual drawing as lives decrease.
 * **180. Typing Speed Test:** Real-time WPM calculation and error tracking.
 </details>
+
+---
+
 ## 🔵 Level 4: Specialized AI & Interaction (Projects 181–350)
 > **Mastery:** Natural Language Processing (NLP), Computer Vision, and initial Machine Learning models.
 
@@ -367,6 +373,10 @@ This roadmap is designed for **Active Learning**.
 * **443. Job Offer Scorer:** Multi-variable decision logic for career moves.
 * **450. Year-End Savings Forecast:** Current habit and trend projection.
 </details>
+
+---
+
+
 ## 🟣 Level 6: Expert Engines & Integration (Projects 451–530)
 > **Mastery:** Low-level algorithms, Systems Engineering, and DevOps Deployment.
 
