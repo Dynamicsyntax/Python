@@ -1,0 +1,6 @@
+#20. 🕵️ First Non-Repeating Character
+text = input("Enter text: ")
+for c in text:
+    if text.count(c) == 1:
+        print("First Non-Repeating:", c)
+        break
