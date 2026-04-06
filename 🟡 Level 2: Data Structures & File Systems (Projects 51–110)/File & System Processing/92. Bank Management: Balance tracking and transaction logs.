@@ -1,0 +1,9 @@
+#92. 🏦 Bank Management
+accounts = {"Alice":1000}
+def deposit(user,amt): accounts[user]+=amt
+def withdraw(user,amt): accounts[user]-=amt
+def log(user): print(f"{user} Balance: {accounts[user]}")
+
+deposit("Alice",500)
+withdraw("Alice",200)
+log("Alice")
