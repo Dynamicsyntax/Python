@@ -1,0 +1,7 @@
+#69. 📊 CSV Sum Calculator
+import csv
+
+with open("data.csv", newline='') as f:
+    reader = csv.DictReader(f)
+    total = sum(float(row["Amount"]) for row in reader)
+print("Total Amount:", total)
