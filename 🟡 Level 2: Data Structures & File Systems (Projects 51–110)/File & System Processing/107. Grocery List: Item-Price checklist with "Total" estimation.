@@ -1,0 +1,5 @@
+#107. 🛒 Grocery List
+items = {"Milk":2,"Bread":1.5,"Eggs":3}
+total = sum(items.values())
+print("Items:",items)
+print("Total:",total)
