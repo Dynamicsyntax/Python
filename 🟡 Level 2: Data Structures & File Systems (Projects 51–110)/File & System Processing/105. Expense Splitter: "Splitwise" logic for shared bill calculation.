@@ -1,0 +1,6 @@
+#105. 🤝 Expense Splitter
+def split_expense(total,people):
+    share = total/len(people)
+    return {p:share for p in people}
+
+print(split_expense(120,["Alice","Bob","Charlie"]))
