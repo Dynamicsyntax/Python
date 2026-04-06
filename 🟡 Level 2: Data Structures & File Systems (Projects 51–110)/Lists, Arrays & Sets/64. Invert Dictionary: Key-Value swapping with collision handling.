@@ -1,0 +1,6 @@
+#64. 🔄 Invert Dictionary
+d = {"a":1,"b":2,"c":1}
+inv = {}
+for k,v in d.items():
+    inv.setdefault(v, []).append(k)
+print("Inverted:", inv)
