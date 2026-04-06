@@ -1,0 +1,7 @@
+#87. 🎓 College System
+departments = {"CS":[],"Math":[]}
+def add_course(dept,course): departments[dept].append(course)
+
+add_course("CS","AI")
+add_course("Math","Algebra")
+print(departments)
