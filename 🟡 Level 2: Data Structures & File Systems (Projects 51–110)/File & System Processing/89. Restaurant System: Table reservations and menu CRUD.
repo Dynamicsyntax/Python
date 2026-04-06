@@ -1,0 +1,8 @@
+#89. 🍽 Restaurant System
+tables, menu = {1:"Free",2:"Free"}, {"Pizza":10,"Pasta":8}
+def reserve(table): tables[table]="Reserved"
+def add_item(item,price): menu[item]=price
+
+reserve(1)
+add_item("Salad",5)
+print(tables, menu)
