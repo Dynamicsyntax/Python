@@ -1,0 +1,5 @@
+# 📏 Custom Padding
+text = input("Enter text: ")
+width = int(input("Enter width: "))
+print("Left:", ' '*(width-len(text))+text)
+print("Right:", text+' '*(width-len(text)))
