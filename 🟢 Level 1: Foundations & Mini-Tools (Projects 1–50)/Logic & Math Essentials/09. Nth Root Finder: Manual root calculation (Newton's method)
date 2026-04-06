@@ -1,0 +1,10 @@
+#9. 📐 Nth Root Finder
+def nth_root(value, n, precision=1e-6):
+    guess = value / n
+    while abs(guess**n - value) > precision:
+        guess = ((n-1)*guess + value/(guess**(n-1))) / n
+    return guess
+
+val = float(input("Enter value: "))
+n = int(input("Enter root (n): "))
+print(f"{n}th root of {val} ≈ {nth_root(val, n)}")
