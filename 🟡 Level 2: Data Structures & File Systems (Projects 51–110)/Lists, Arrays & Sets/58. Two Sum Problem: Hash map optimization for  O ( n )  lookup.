@@ -1,0 +1,9 @@
+#58. 🧩 Two Sum Problem
+nums = [2,7,11,15]
+target = 9
+seen = {}
+for i, num in enumerate(nums):
+    if target-num in seen:
+        print("Indices:", (seen[target-num], i))
+        break
+    seen[num] = i
