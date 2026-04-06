@@ -1,0 +1,12 @@
+#7. 🌀 Collatz Conjecture
+num = int(input("Enter a number: "))
+sequence = [num]
+
+while num != 1:
+    if num % 2 == 0:
+        num //= 2
+    else:
+        num = 3*num + 1
+    sequence.append(num)
+
+print("Collatz Sequence:", sequence)
