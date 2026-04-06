@@ -1,0 +1,8 @@
+#108. 🛍 Shopping Cart
+cart = []
+def add_item(name,price): cart.append({"name":name,"price":price})
+def total(): return sum(i["price"] for i in cart)
+
+add_item("Laptop",1000)
+add_item("Mouse",50)
+print("Cart:",cart,"Total:",total())
