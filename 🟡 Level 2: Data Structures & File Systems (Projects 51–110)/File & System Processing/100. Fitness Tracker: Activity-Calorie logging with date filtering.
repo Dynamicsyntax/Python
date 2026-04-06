@@ -1,0 +1,14 @@
+#100. 📊 Fitness Tracker
+import datetime
+log = []
+
+def add_activity(user,activity,calories):
+    log.append({"user":user,"activity":activity,"calories":calories,"date":datetime.date.today()})
+
+add_activity("Alice","Running",300)
+add_activity("Alice","Cycling",200)
+
+def filter_by_date(date):
+    return [entry for entry in log if entry["date"]==date]
+
+print(log)
