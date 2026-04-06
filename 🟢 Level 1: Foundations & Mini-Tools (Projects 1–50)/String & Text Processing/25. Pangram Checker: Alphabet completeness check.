@@ -1,0 +1,4 @@
+#25. 🔤 Pangram Checker
+import string
+sentence = input("Enter sentence: ").lower()
+print("Pangram ✅" if all(c in sentence for c in string.ascii_lowercase) else "Not Pangram ❌")
