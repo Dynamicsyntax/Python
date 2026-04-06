@@ -1,0 +1,9 @@
+#14. 📏 Hamming Distance
+s1 = input("Enter first string: ")
+s2 = input("Enter second string: ")
+
+if len(s1) != len(s2):
+    print("Strings must be of equal length ❌")
+else:
+    distance = sum(c1 != c2 for c1, c2 in zip(s1, s2))
+    print(f"Hamming Distance = {distance}")
