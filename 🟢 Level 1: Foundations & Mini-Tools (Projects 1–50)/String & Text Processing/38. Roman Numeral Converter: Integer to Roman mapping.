@@ -1,0 +1,10 @@
+#38. 🏛 Roman Numeral Converter
+val = int(input("Enter number: "))
+nums = [1000,900,500,400,100,90,50,40,10,9,5,4,1]
+romans = ["M","CM","D","CD","C","XC","L","XL","X","IX","V","IV","I"]
+res = ""
+for i, n in enumerate(nums):
+    while val >= n:
+        res += romans[i]
+        val -= n
+print("Roman:", res)
