@@ -1,0 +1,8 @@
+#61. ⚡ Zigzag Merge
+a = [1,3,5]
+b = [2,4,6,8]
+res = []
+for x,y in zip(a,b):
+    res += [x,y]
+res += a[len(b):] + b[len(a):]
+print("Merged:", res)
