@@ -1,0 +1,7 @@
+#48. 📝 Random Quote Generator
+import random
+
+with open("quotes.txt", "r") as file:
+    quotes = file.readlines()
+
+print("Quote:", random.choice(quotes).strip())
