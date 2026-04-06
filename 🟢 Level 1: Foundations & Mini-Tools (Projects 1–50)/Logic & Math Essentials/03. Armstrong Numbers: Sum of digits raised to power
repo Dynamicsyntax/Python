@@ -1,0 +1,9 @@
+#3. 💎 Armstrong Number Checker
+num = int(input("Enter a number: "))
+digits = str(num)
+total = sum(int(d)**len(digits) for d in digits)
+
+if total == num:
+    print(f"{num} is an Armstrong Number ✅")
+else:
+    print(f"{num} is NOT an Armstrong Number ❌")
