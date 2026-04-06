@@ -1,0 +1,12 @@
+#97. 🎬 Movie Ticket Booking
+grid = [[0]*5 for _ in range(5)]  # 0=free,1=booked
+
+def book(row,col):
+    if grid[row][col]==0:
+        grid[row][col]=1
+        print(f"Seat ({row},{col}) booked ✅")
+    else:
+        print("Already taken ❌")
+
+book(2,3)
+print(grid)
