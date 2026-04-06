@@ -1,0 +1,11 @@
+#98. 🎉 Event Management
+event = {"guests":[],"budget":1000,"vendors":[]}
+
+def add_guest(name): event["guests"].append(name)
+def spend(amount,vendor):
+    event["budget"]-=amount
+    event["vendors"].append((vendor,amount))
+
+add_guest("Alice")
+spend(200,"Catering")
+print(event)
