@@ -1,0 +1,5 @@
+#24. 🔍 Substring Count
+text = input("Enter text: ")
+pattern = input("Enter substring: ")
+count = sum(text[i:i+len(pattern)] == pattern for i in range(len(text)-len(pattern)+1))
+print("Count:", count)
