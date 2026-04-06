@@ -1,0 +1,4 @@
+#54. ➕ Sum of Multiples
+limit = int(input("Enter limit: "))
+multiples = [i for i in range(limit) if i%3==0 or i%5==0]
+print("Sum:", sum(multiples))
