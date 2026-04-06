@@ -1,0 +1,7 @@
+#74. 📁 File Extension Counter
+import os
+from collections import Counter
+
+folder = "docs"
+exts = [os.path.splitext(f)[1] for f in os.listdir(folder)]
+print("Extension Counts:", Counter(exts))
