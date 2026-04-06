@@ -1,0 +1,6 @@
+#13. ⚡ Power of Two Checker
+num = int(input("Enter a number: "))
+if num > 0 and (num & (num - 1)) == 0:
+    print(f"{num} is a Power of Two ✅")
+else:
+    print(f"{num} is NOT a Power of Two ❌")
