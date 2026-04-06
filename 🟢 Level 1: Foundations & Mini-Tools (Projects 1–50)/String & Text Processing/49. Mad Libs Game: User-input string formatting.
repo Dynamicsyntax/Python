@@ -1,0 +1,7 @@
+#49. 🎭 Mad Libs Game
+noun = input("Enter a noun: ")
+verb = input("Enter a verb: ")
+adj = input("Enter an adjective: ")
+
+story = f"Once upon a time, there was a {adj} {noun} who loved to {verb}."
+print(story)
