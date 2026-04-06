@@ -1,0 +1,4 @@
+#16. 🐷 Pig Latin Converter
+sentence = input("Enter a sentence: ").split()
+pig_latin = ['{}{}ay'.format(word[1:], word[0]) for word in sentence]
+print("Pig Latin:", ' '.join(pig_latin))
