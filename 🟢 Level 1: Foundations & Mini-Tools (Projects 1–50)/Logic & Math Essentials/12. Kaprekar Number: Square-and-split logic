@@ -1,0 +1,11 @@
+#12. 🔮 Kaprekar Number Checker
+num = int(input("Enter a number: "))
+sq = str(num**2)
+mid = len(sq)//2
+left = int(sq[:mid] or 0)
+right = int(sq[mid:] or 0)
+
+if left + right == num:
+    print(f"{num} is a Kaprekar Number ✅")
+else:
+    print(f"{num} is NOT a Kaprekar Number ❌")
