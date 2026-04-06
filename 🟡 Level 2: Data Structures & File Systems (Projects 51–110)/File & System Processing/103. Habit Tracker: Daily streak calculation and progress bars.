@@ -1,0 +1,12 @@
+#103. 📆 Habit Tracker
+habits = {"Exercise":[1,1,0,1]}  # 1=done,0=missed
+
+def streak(habit):
+    streaks, current = [],0
+    for day in habits[habit]:
+        if day==1: current+=1
+        else: streaks.append(current); current=0
+    streaks.append(current)
+    return max(streaks)
+
+print("Exercise streak:", streak("Exercise"))
