@@ -1,0 +1,7 @@
+#22. 🧹 Remove Adjacent Duplicates
+text = input("Enter text: ")
+result = []
+for c in text:
+    if not result or result[-1] != c:
+        result.append(c)
+print("Cleaned:", ''.join(result))
