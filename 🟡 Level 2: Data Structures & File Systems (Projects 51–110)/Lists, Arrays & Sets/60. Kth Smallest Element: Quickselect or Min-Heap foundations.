@@ -1,0 +1,5 @@
+#60. 🔑 Kth Smallest Element
+import heapq
+arr = [7,10,4,3,20,15]
+k = 3
+print("Kth Smallest:", heapq.nsmallest(k, arr)[-1])
