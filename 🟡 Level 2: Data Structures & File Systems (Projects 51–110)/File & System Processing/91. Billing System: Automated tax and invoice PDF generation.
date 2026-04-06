@@ -1,0 +1,13 @@
+#91. 💵 Billing System
+import fpdf
+items = {"Book":100,"Pen":20}
+tax_rate = 0.1
+total = sum(items.values())
+tax = total*tax_rate
+grand = total+tax
+
+pdf = fpdf.FPDF()
+pdf.add_page()
+pdf.set_font("Arial",size=12)
+pdf.cell(200,10,txt=f"Total: {grand}",ln=True)
+pdf.output("invoice.pdf")
