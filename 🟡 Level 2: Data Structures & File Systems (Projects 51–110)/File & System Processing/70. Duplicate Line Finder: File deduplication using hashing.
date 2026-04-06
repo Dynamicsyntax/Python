@@ -1,0 +1,9 @@
+#70. 🔍 Duplicate Line Finder
+seen, duplicates = set(), set()
+with open("sample.txt", "r") as f:
+    for line in f:
+        if line in seen:
+            duplicates.add(line.strip())
+        else:
+            seen.add(line)
+print("Duplicates:", duplicates)
