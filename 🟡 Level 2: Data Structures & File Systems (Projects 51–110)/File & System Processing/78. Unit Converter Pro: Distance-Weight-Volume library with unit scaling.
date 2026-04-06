@@ -1,0 +1,6 @@
+#78. ⚖️ Unit Converter Pro
+def convert(value, unit_from, unit_to):
+    factors = {"m":1, "km":1000, "cm":0.01, "mm":0.001}
+    return value * factors[unit_from] / factors[unit_to]
+
+print("10 km =", convert(10,"km","m"), "meters")
