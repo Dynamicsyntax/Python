@@ -1,0 +1,10 @@
+#80. 📷 Image Resizer
+from PIL import Image
+import os
+
+folder = "photos"
+for f in os.listdir(folder):
+    if f.endswith(".jpg"):
+        img = Image.open(os.path.join(folder,f))
+        img = img.resize((200,200))
+        img.save(os.path.join(folder,"resized_"+f))
