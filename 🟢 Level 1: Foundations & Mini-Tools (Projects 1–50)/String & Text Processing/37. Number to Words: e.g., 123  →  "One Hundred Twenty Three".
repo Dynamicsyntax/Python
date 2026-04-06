@@ -1,0 +1,5 @@
+# 37. 🔠 Number to Words (basic)
+import inflect
+p = inflect.engine()
+num = int(input("Enter number: "))
+print("Words:", p.number_to_words(num).title())
