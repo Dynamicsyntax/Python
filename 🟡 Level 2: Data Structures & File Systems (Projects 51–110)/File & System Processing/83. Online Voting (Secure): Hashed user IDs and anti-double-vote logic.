@@ -1,0 +1,15 @@
+#83. 🔐 Online Voting (Secure)
+import hashlib, json
+
+votes = {}
+def cast_vote(user_id, choice):
+    hashed = hashlib.sha256(user_id.encode()).hexdigest()
+    if hashed in votes:
+        print("Duplicate vote blocked ❌")
+    else:
+        votes[hashed] = choice
+        print("Vote recorded ✅")
+
+cast_vote("user123","Python")
+cast_vote("user123","Java")
+print("Votes:", votes)
