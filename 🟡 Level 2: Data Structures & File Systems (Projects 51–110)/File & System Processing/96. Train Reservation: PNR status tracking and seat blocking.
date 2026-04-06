@@ -1,0 +1,13 @@
+#96. 🚆 Train Reservation
+pnr_status = {}
+seats = {1:"Available",2:"Available"}
+
+def book_seat(pnr,seat):
+    if seats[seat]=="Available":
+        seats[seat]="Booked"
+        pnr_status[pnr]="Confirmed"
+    else:
+        pnr_status[pnr]="Waitlisted"
+
+book_seat("PNR123",1)
+print(pnr_status,seats)
