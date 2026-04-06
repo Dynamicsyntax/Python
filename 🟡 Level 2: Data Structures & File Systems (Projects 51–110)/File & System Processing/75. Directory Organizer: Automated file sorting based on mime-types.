@@ -1,0 +1,13 @@
+#75. 🗂 Directory Organizer
+import os, shutil, mimetypes
+
+folder = "downloads"
+for f in os.listdir(folder):
+    path = os.path.join(folder, f)
+    if os.path.isfile(path):
+        mime, _ = mimetypes.guess_type(path)
+        if mime:
+            category = mime.split("/")[0]
+            dest = os.path.join(folder, category)
+            os.makedirs(dest, exist_ok=True)
+            shutil.move(path, dest)
