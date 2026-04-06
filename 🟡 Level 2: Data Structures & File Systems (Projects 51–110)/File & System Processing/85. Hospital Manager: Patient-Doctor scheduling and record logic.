@@ -1,0 +1,11 @@
+#85. 🏥 Hospital Manager
+patients, doctors = {}, {}
+
+def add_patient(pid,name,doctor): patients[pid]={"name":name,"doctor":doctor}
+def add_doctor(did,name): doctors[did]=name
+def schedule(pid,date): patients[pid]["appointment"]=date
+
+add_doctor(1,"Dr. Smith")
+add_patient(101,"Alice",1)
+schedule(101,"2026-04-07")
+print(patients)
