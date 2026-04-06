@@ -1,0 +1,4 @@
+#23. 📖 Title Case Converter
+sentence = input("Enter sentence: ")
+title_case = ' '.join(word[0].upper()+word[1:].lower() for word in sentence.split())
+print("Title Case:", title_case)
