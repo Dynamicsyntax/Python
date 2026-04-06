@@ -1,0 +1,11 @@
+# 📝 Log File Analyzer
+import re
+
+with open("server.log", "r") as f:
+    logs = f.read()
+
+ips = re.findall(r'\d+\.\d+\.\d+\.\d+', logs)
+errors = re.findall(r'ERROR.*', logs)
+
+print("IPs:", set(ips))
+print("Errors:", errors)
