@@ -1,0 +1,11 @@
+#104. 📓 Daily Journal
+import datetime, hashlib
+
+journal = {}
+def add_entry(text):
+    date = str(datetime.date.today())
+    encrypted = hashlib.sha256(text.encode()).hexdigest()
+    journal[date]=encrypted
+
+add_entry("Today I learned Python.")
+print(journal)
