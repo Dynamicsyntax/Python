@@ -1,0 +1,7 @@
+#11. ➗ Sum of Odd/Even Indexes
+numbers = list(map(int, input("Enter numbers separated by space: ").split()))
+odd_sum = sum(numbers[i] for i in range(1, len(numbers), 2))
+even_sum = sum(numbers[i] for i in range(0, len(numbers), 2))
+
+print(f"Sum of Even Indexes = {even_sum}")
+print(f"Sum of Odd Indexes = {odd_sum}")
