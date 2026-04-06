@@ -1,0 +1,5 @@
+#15. 🔐 Caesar Cipher
+text = input("Enter text: ")
+shift = int(input("Enter shift value: "))
+cipher = ''.join(chr((ord(c)-97+shift)%26+97) if c.isalpha() else c for c in text.lower())
+print("Encrypted:", cipher)
