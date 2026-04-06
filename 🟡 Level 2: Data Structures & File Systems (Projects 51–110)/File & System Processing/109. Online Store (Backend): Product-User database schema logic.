@@ -1,0 +1,10 @@
+#109. 🏪 Online Store Schema
+products = [{"id":1,"name":"Phone","price":500}]
+users = [{"id":1,"name":"Alice"}]
+orders = []
+
+def place_order(user_id,product_id):
+    orders.append({"user":user_id,"product":product_id})
+
+place_order(1,1)
+print("Orders:",orders)
