@@ -1,0 +1,9 @@
+#66. 🧮 Group Anagrams
+from collections import defaultdict
+words = ["eat","tea","tan","ate","nat","bat"]
+groups = defaultdict(list)
+
+for w in words:
+    groups[''.join(sorted(w))].append(w)
+
+print("Grouped:", list(groups.values()))
