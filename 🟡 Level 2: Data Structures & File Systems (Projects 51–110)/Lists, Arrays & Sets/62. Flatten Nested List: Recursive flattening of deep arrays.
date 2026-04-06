@@ -1,0 +1,12 @@
+#62. 📂 Flatten Nested List
+def flatten(lst):
+    res = []
+    for i in lst:
+        if isinstance(i, list):
+            res += flatten(i)
+        else:
+            res.append(i)
+    return res
+
+nested = [1,[2,[3,4],5],6]
+print("Flattened:", flatten(nested))
