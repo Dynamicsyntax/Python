@@ -1,0 +1,13 @@
+#84. 📚 Library Manager
+library = {}
+
+def add_book(id,title): library[id]=title
+def read_books(): print(library)
+def update_book(id,new): library[id]=new
+def delete_book(id): library.pop(id,None)
+
+add_book(1,"1984")
+add_book(2,"Brave New World")
+update_book(2,"BNW")
+delete_book(1)
+read_books()
