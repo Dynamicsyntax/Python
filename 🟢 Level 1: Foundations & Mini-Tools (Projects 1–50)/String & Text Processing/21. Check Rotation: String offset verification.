@@ -1,0 +1,4 @@
+#21. 🔁 String Rotation Checker
+s1 = input("Enter first string: ")
+s2 = input("Enter second string: ")
+print("Rotation ✅" if len(s1)==len(s2) and s2 in s1+s1 else "Not Rotation ❌")
