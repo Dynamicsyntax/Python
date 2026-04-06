@@ -1,0 +1,7 @@
+#106 📊 Budget Planner
+budget = {"Food":300,"Transport":200}
+spent = {"Food":250,"Transport":210}
+
+for cat,limit in budget.items():
+    if spent.get(cat,0)>limit:
+        print(f"Alert: {cat} exceeded limit!")
