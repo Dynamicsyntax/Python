@@ -1,0 +1,8 @@
+#72. 🌐 HTML Table Parser
+from bs4 import BeautifulSoup
+
+html = "<table><tr><td>A</td><td>B</td></tr></table>"
+soup = BeautifulSoup(html, "html.parser")
+
+rows = [[cell.text for cell in row.find_all("td")] for row in soup.find_all("tr")]
+print("Parsed Table:", rows)
