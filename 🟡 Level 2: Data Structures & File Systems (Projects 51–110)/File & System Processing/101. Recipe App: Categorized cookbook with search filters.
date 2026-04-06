@@ -1,0 +1,10 @@
+#101. 🍲 Recipe App
+recipes = {
+    "Dessert":[{"name":"Cake","ingredients":["flour","sugar","eggs"]}],
+    "Main":[{"name":"Pasta","ingredients":["noodles","sauce"]}]
+}
+
+def search(category, keyword):
+    return [r for r in recipes.get(category,[]) if keyword.lower() in r["name"].lower()]
+
+print(search("Dessert","Cake"))
