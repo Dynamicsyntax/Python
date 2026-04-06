@@ -1,0 +1,3 @@
+#34. 💻 Binary to Decimal
+binary = input("Enter binary: ")
+print("Decimal:", int(binary, 2))
