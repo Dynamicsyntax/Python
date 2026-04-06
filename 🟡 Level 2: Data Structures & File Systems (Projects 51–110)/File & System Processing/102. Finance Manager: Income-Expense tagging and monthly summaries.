@@ -1,0 +1,13 @@
+#102. 💰 Finance Manager
+records = []
+def add_record(type,amount,month):
+    records.append({"type":type,"amount":amount,"month":month})
+
+def summary(month):
+    income = sum(r["amount"] for r in records if r["type"]=="income" and r["month"]==month)
+    expense = sum(r["amount"] for r in records if r["type"]=="expense" and r["month"]==month)
+    return {"income":income,"expense":expense,"net":income-expense}
+
+add_record("income",2000,"April")
+add_record("expense",500,"April")
+print(summary("April"))
