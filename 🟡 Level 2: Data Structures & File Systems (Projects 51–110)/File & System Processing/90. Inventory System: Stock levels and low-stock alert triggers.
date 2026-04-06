@@ -1,0 +1,9 @@
+#90. 📦 Inventory System
+inventory = {"Apples":5,"Bananas":2}
+def update(item,qty): inventory[item]=qty
+def check_alerts():
+    for k,v in inventory.items():
+        if v<3: print(f"Low stock alert: {k}")
+
+update("Apples",1)
+check_alerts()
