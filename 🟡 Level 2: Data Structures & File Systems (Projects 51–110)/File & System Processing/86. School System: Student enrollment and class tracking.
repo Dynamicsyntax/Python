@@ -1,0 +1,10 @@
+#86. 🏫 School System
+students, classes = {}, {}
+
+def enroll(sid,name,class_id):
+    students[sid]={"name":name,"class":class_id}
+    classes.setdefault(class_id,[]).append(sid)
+
+enroll(1,"John","Math101")
+enroll(2,"Jane","Sci101")
+print(students, classes)
