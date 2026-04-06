@@ -1,0 +1,8 @@
+# 47. 😂 Random Joke Generator
+import random
+jokes = [
+    "Why don’t programmers like nature? Too many bugs.",
+    "Debugging: Removing the needles from the haystack.",
+    "I told my computer I needed a break, and it froze."
+]
+print("Joke:", random.choice(jokes))
