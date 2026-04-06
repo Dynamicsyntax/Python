@@ -1,0 +1,12 @@
+#94. ✈️ Flight Reservation
+seats = {"Economy":[False]*5,"Business":[False]*3}
+
+def reserve(seat_class, seat_no):
+    if not seats[seat_class][seat_no]:
+        seats[seat_class][seat_no] = True
+        print(f"{seat_class} Seat {seat_no} reserved ✅")
+    else:
+        print("Already booked ❌")
+
+reserve("Economy",2)
+print(seats)
