@@ -1,0 +1,7 @@
+#88. 🏨 Hotel System
+rooms = {101:"Available",102:"Available"}
+def check_in(room): rooms[room]="Occupied"
+def check_out(room): rooms[room]="Available"
+
+check_in(101)
+print(rooms)
