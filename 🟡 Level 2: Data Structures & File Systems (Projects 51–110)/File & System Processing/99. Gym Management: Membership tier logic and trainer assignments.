@@ -1,0 +1,7 @@
+#99. 🏋️ Gym Management
+members = {}
+def add_member(name,tier,trainer):
+    members[name]={"tier":tier,"trainer":trainer}
+
+add_member("John","Gold","Trainer A")
+print(members)
