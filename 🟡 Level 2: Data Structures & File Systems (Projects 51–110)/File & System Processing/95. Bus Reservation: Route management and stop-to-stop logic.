@@ -1,0 +1,13 @@
+#95. 🚌 Bus Reservation
+routes = {"Route1":["StopA","StopB","StopC"]}
+bookings = []
+
+def book(route,start,end):
+    if start in routes[route] and end in routes[route]:
+        bookings.append((route,start,end))
+        print("Booking confirmed ✅")
+    else:
+        print("Invalid stops ❌")
+
+book("Route1","StopA","StopC")
+print(bookings)
