@@ -1,0 +1,10 @@
+#93. 💳 ATM Simulator
+pin, balance = "1234", 1000
+def atm_enter(user_pin,amt):
+    if user_pin!=pin: return "Invalid PIN ❌"
+    global balance
+    if amt>balance: return "Insufficient funds ❌"
+    balance-=amt
+    return f"Withdrawn {amt}, Remaining {balance}"
+
+print(atm_enter("1234",200))
