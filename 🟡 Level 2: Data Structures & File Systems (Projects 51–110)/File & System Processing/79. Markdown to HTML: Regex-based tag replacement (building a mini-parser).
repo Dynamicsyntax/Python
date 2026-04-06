@@ -1,0 +1,7 @@
+#79. 📝 Markdown to HTML
+import re
+
+md = "# Title\n**bold** text"
+html = re.sub(r'# (.*)', r'<h1>\1</h1>', md)
+html = re.sub(r'\*\*(.*?)\*\*', r'<b>\1</b>', html)
+print(html)
