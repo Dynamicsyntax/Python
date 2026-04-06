@@ -1,0 +1,15 @@
+#8. 😊 Happy Number Checker
+def digit_square_sum(n):
+    return sum(int(d)**2 for d in str(n))
+
+num = int(input("Enter a number: "))
+seen = set()
+
+while num != 1 and num not in seen:
+    seen.add(num)
+    num = digit_square_sum(num)
+
+if num == 1:
+    print("Happy Number ✅")
+else:
+    print("Not a Happy Number ❌")
