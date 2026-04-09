@@ -1,0 +1,9 @@
+# work_log.py
+from datetime import date
+
+def generate_work_log(tasks_done):
+    return f"{date.today()} - Achievements: {', '.join(tasks_done)}"
+
+if __name__ == "__main__":
+    log = generate_work_log(["Fixed login bug", "Updated docs", "Reviewed PRs"])
+    print(log)
