@@ -1,0 +1,21 @@
+# forum_system.py
+forums = {
+    "Python": {"posts": [], "roles": ["Admin", "Member"]},
+    "Math": {"posts": [], "roles": ["Moderator", "Member"]}
+}
+
+def add_post(board, user, role, content):
+    if role in forums[board]["roles"]:
+        forums[board]["posts"].append({"user": user, "role": role, "content": content})
+    else:
+        print("Role not allowed!")
+
+def show_board(board):
+    for p in forums[board]["posts"]:
+        print(f"{p['user']} ({p['role']}): {p['content']}")
+
+if __name__ == "__main__":
+    add_post("Python", "Alice", "Admin", "Welcome to Python board!")
+    add_post("Math", "Bob", "Member", "Need help with algebra")
+    show_board("Python")
+    show_board("Math")
