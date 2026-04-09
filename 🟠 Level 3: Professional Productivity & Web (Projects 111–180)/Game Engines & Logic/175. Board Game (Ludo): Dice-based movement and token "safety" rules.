@@ -1,0 +1,19 @@
+#175. 🎲 Ludo Game
+# Dice-based movement and token safety rules.
+
+import random
+
+def roll_dice():
+    return random.randint(1,6)
+
+def move(token, roll):
+    token += roll
+    if token==8: print("Safe zone reached!")
+    return token
+
+if __name__ == "__main__":
+    token=0
+    roll=roll_dice()
+    print("Rolled:",roll)
+    token=move(token,roll)
+    print("Token:",token)
