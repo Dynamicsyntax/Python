@@ -1,0 +1,14 @@
+# ticketing_system.py
+tickets = []
+
+def create_ticket(issue, priority):
+    tickets.append({"issue": issue, "priority": priority})
+
+def show_tickets():
+    for t in sorted(tickets, key=lambda x: x["priority"]):
+        print(t)
+
+if __name__ == "__main__":
+    create_ticket("Login error", 1)
+    create_ticket("Page crash", 2)
+    show_tickets()
