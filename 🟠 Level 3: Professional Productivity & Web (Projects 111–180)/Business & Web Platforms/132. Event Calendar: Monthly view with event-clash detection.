@@ -1,0 +1,13 @@
+# event_calendar.py
+events = [{"date": "2026-04-10", "title": "Math Exam"}, {"date": "2026-04-10", "title": "Science Fair"}]
+
+def detect_clash():
+    dates = {}
+    for e in events:
+        dates.setdefault(e["date"], []).append(e["title"])
+    for d, titles in dates.items():
+        if len(titles) > 1:
+            print(f"Clash on {d}: {titles}")
+
+if __name__ == "__main__":
+    detect_clash()
