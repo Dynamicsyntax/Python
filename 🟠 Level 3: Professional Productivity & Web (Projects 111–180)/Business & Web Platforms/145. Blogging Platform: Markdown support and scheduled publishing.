@@ -1,0 +1,17 @@
+# blogging_platform.py
+import datetime
+
+posts = []
+
+def schedule_post(title, content, publish_date):
+    posts.append({"title": title, "content": content, "publish_date": publish_date})
+
+def publish():
+    today = datetime.date.today()
+    for p in posts:
+        if p["publish_date"] <= today:
+            print(f"Published: {p['title']}\n{p['content']}")
+
+if __name__ == "__main__":
+    schedule_post("My Blog", "# Hello World\nThis is markdown content.", datetime.date.today())
+    publish()
