@@ -1,0 +1,15 @@
+# student_portal.py
+student = {
+    "name": "Alice",
+    "grades": {"Math": "A", "History": "B"},
+    "materials": ["Math Notes.pdf", "History Slides.ppt"],
+    "schedule": ["Mon: Math", "Tue: History"]
+}
+
+def dashboard():
+    print("Student Portal Dashboard")
+    for k, v in student.items():
+        print(f"{k}: {v}")
+
+if __name__ == "__main__":
+    dashboard()
