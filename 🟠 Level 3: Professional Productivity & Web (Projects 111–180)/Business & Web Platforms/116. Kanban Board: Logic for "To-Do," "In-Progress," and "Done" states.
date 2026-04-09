@@ -1,0 +1,20 @@
+# kanban_board.py
+class KanbanTask:
+    def __init__(self, title):
+        self.title = title
+        self.state = "To-Do"
+
+    def move(self, new_state):
+        if new_state in ["To-Do", "In-Progress", "Done"]:
+            self.state = new_state
+
+    def __repr__(self):
+        return f"{self.title} [{self.state}]"
+
+if __name__ == "__main__":
+    task = KanbanTask("Fix bug #42")
+    print(task)
+    task.move("In-Progress")
+    print(task)
+    task.move("Done")
+    print(task)
