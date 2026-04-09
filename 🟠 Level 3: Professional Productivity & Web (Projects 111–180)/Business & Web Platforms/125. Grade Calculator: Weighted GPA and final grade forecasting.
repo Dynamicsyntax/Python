@@ -1,0 +1,14 @@
+# grade_calculator.py
+grades = [
+    {"course": "Math", "grade": 3.7, "credits": 4},
+    {"course": "History", "grade": 3.0, "credits": 3},
+    {"course": "Science", "grade": 3.3, "credits": 2}
+]
+
+def calculate_gpa():
+    total_points = sum(g["grade"] * g["credits"] for g in grades)
+    total_credits = sum(g["credits"] for g in grades)
+    return round(total_points / total_credits, 2)
+
+if __name__ == "__main__":
+    print("Weighted GPA:", calculate_gpa())
