@@ -1,4 +1,4 @@
-# 🔍 Duplicate Line Finder
+#70. 🔍 Duplicate Line Finder
 # This program finds duplicate lines in a file.
 
 def find_duplicates(filename):
