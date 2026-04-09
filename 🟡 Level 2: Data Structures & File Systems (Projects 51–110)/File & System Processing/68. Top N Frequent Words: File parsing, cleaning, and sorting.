@@ -1,9 +1,20 @@
-#68. 🔝 Top N Frequent Words
-from collections import Counter
+# 🔝 Top N Frequent Words
+# This program finds the most frequent words in a file.
+
 import re
+from collections import Counter
 
-with open("sample.txt", "r") as f:
-    words = re.findall(r'\w+', f.read().lower())
+def top_n_words(filename, n=5):
+    try:
+        with open(filename, "r") as f:
+            text = f.read().lower()
+            words = re.findall(r'\w+', text)
+            freq = Counter(words).most_common(n)
+            print("Top Words:", freq)
+    except FileNotFoundError:
+        print(f"Error: File '{filename}' not found.")
+    except Exception as e:
+        print(f"Error: {e}")
 
-top_n = Counter(words).most_common(5)
-print("Top Words:", top_n)
+if __name__ == "__main__":
+    top_n_words("sample.txt", 5)
