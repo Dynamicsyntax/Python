@@ -1,0 +1,14 @@
+# personal_site.py
+profile = {
+    "bio": "Software Developer",
+    "portfolio": ["App1", "App2"],
+    "contact": "alice@example.com"
+}
+
+def show_site():
+    print("Bio:", profile["bio"])
+    print("Portfolio:", ", ".join(profile["portfolio"]))
+    print("Contact:", profile["contact"])
+
+if __name__ == "__main__":
+    show_site()
