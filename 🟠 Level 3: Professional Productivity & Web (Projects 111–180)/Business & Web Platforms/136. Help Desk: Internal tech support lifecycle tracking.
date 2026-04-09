@@ -1,0 +1,13 @@
+# help_desk.py
+requests = []
+
+def new_request(user, issue):
+    requests.append({"user": user, "issue": issue, "status": "Open"})
+
+def resolve(index):
+    requests[index]["status"] = "Closed"
+
+if __name__ == "__main__":
+    new_request("Alice", "PC not working")
+    resolve(0)
+    print(requests)
