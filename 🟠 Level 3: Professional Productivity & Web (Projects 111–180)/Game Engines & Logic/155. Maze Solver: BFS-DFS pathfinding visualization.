@@ -1,0 +1,21 @@
+#155. 🌀 Maze Solver
+# BFS pathfinding in a grid maze.
+
+from collections import deque
+
+def bfs(maze,start,end):
+    q=deque([start])
+    visited={start}
+    while q:
+        x,y=q.popleft()
+        if (x,y)==end: return True
+        for dx,dy in [(1,0),(-1,0),(0,1),(0,-1)]:
+            nx,ny=x+dx,y+dy
+            if 0<=nx<len(maze) and 0<=ny<len(maze[0]) and maze[nx][ny]==0 and (nx,ny) not in visited:
+                visited.add((nx,ny))
+                q.append((nx,ny))
+    return False
+
+if __name__ == "__main__":
+    maze=[[0,1,0],[0,0,0],[1,0,1]]
+    print("Path exists:", bfs(maze,(0,0),(2,1)))
