@@ -1,0 +1,14 @@
+#167. 👻 Pac-Man
+# Ghost pathfinding AI (simple chase).
+
+def ghost_move(ghost,pacman):
+    gx,gy=ghost; px,py=pacman
+    if gx<px: gx+=1
+    elif gx>px: gx-=1
+    if gy<py: gy+=1
+    elif gy>py: gy-=1
+    return (gx,gy)
+
+if __name__ == "__main__":
+    ghost=(0,0); pacman=(3,3)
+    print("Ghost moved:",ghost_move(ghost,pacman))
