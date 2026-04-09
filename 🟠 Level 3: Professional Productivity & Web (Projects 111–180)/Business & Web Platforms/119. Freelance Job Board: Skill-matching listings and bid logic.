@@ -1,0 +1,19 @@
+# freelance_job_board.py
+jobs = [
+    {"title": "Web Design", "skills": ["HTML", "CSS"]},
+    {"title": "Data Analysis", "skills": ["Python", "Pandas"]}
+]
+
+freelancers = [
+    {"name": "Alice", "skills": ["HTML", "CSS", "JS"]},
+    {"name": "Bob", "skills": ["Python", "SQL"]}
+]
+
+def match_jobs():
+    for job in jobs:
+        for f in freelancers:
+            if set(job["skills"]).issubset(f["skills"]):
+                print(f"{f['name']} can bid on {job['title']}")
+
+if __name__ == "__main__":
+    match_jobs()
