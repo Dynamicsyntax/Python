@@ -1,0 +1,20 @@
+# nonprofit_portal.py
+donations = []
+volunteers = []
+
+def add_donation(name, amount):
+    donations.append({"name": name, "amount": amount})
+
+def register_volunteer(name):
+    volunteers.append(name)
+
+def show_portal():
+    print("Donations:")
+    for d in donations:
+        print(f"{d['name']} donated ${d['amount']}")
+    print("\nVolunteers:", ", ".join(volunteers))
+
+if __name__ == "__main__":
+    add_donation("Alice", 100)
+    register_volunteer("Bob")
+    show_portal()
