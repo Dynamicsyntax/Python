@@ -1,0 +1,9 @@
+# discussion_forum.py
+threads = [{"title": "Python Tips", "upvotes": 10}, {"title": "Math Help", "upvotes": 5}]
+
+def show_forum():
+    for t in sorted(threads, key=lambda x: -x["upvotes"]):
+        print(f"{t['title']} ({t['upvotes']} upvotes)")
+
+if __name__ == "__main__":
+    show_forum()
