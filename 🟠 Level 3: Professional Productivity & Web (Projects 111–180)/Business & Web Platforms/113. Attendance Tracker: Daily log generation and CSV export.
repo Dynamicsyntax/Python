@@ -1,0 +1,13 @@
+# attendance_tracker.py
+import csv
+from datetime import date
+
+def log_attendance(emp_id, status="Present"):
+    with open("attendance.csv", "a", newline="") as f:
+        writer = csv.writer(f)
+        writer.writerow([date.today(), emp_id, status])
+
+if __name__ == "__main__":
+    log_attendance(1, "Present")
+    log_attendance(2, "Absent")
+    print("Attendance logged to attendance.csv")
