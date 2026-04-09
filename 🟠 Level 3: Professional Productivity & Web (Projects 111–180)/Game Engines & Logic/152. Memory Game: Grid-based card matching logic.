@@ -1,0 +1,17 @@
+# 🧠 Memory Game
+# A simple card matching logic using a grid.
+
+import random
+
+def memory_game():
+    cards = ["A","A","B","B","C","C"]
+    random.shuffle(cards)
+    print("Cards:", cards)
+    choice1, choice2 = 0, 1
+    if cards[choice1] == cards[choice2]:
+        print("Match found:", cards[choice1])
+    else:
+        print("No match.")
+
+if __name__ == "__main__":
+    memory_game()
