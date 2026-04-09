@@ -1,3 +1,4 @@
+# employee_management.py
 class Employee:
     def __init__(self, emp_id, name, role):
         self.emp_id = emp_id
@@ -20,3 +21,12 @@ class EmployeeManager:
 
     def delete(self, emp_id):
         self.employees.pop(emp_id, None)
+
+if __name__ == "__main__":
+    manager = EmployeeManager()
+    manager.create(1, "Alice", "Admin")
+    print(manager.read(1))
+    manager.update(1, "Manager")
+    print(manager.read(1))
+    manager.delete(1)
+    print(manager.read(1))
