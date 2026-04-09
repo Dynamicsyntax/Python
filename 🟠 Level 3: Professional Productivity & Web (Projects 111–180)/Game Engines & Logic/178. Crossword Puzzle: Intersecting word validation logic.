@@ -1,0 +1,14 @@
+#178. ✏️ Crossword Puzzle
+# Intersecting word validation.
+
+def place_word(grid,word,row,col,direction):
+    for i,c in enumerate(word):
+        if direction=="across": grid[row][col+i]=c
+        else: grid[row+i][col]=c
+    return grid
+
+if __name__ == "__main__":
+    grid=[[" "]*5 for _ in range(5)]
+    grid=place_word(grid,"cat",0,0,"across")
+    grid=place_word(grid,"tap",0,2,"down")
+    for row in grid: print(row)
