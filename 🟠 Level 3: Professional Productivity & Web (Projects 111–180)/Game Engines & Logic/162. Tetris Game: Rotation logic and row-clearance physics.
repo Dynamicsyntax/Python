@@ -1,0 +1,16 @@
+#162. 🟦 Tetris Game
+# Rotation and row-clearance logic.
+
+def rotate(piece):
+    return [list(row) for row in zip(*piece[::-1])]
+
+def clear_rows(board):
+    board = [row for row in board if any(cell==0 for cell in row)]
+    while len(board)<4: board.insert(0,[0]*4)
+    return board
+
+if __name__ == "__main__":
+    piece = [[1,0],[1,1]]
+    print("Rotated:", rotate(piece))
+    board = [[1,1,1,1],[0,1,0,1],[0,0,0,0],[1,0,1,0]]
+    print("Cleared:", clear_rows(board))
