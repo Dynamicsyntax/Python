@@ -1,0 +1,18 @@
+# portfolio_generator.py
+import json
+
+portfolio = {
+    "name": "Alice",
+    "projects": ["Website", "App", "Game"]
+}
+
+def generate_html(data):
+    html = f"<h1>{data['name']}'s Portfolio</h1><ul>"
+    for p in data["projects"]:
+        html += f"<li>{p}</li>"
+    html += "</ul>"
+    return html
+
+if __name__ == "__main__":
+    html_output = generate_html(portfolio)
+    print(html_output)
