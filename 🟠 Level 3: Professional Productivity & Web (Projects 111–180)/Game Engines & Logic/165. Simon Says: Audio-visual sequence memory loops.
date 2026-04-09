@@ -1,0 +1,15 @@
+#165. 🎵 Simon Says
+# Sequence memory loop.
+
+import random
+
+def simon_round(sequence):
+    new = random.choice(["R","G","B","Y"])
+    sequence.append(new)
+    print("Sequence:",sequence)
+    return sequence
+
+if __name__ == "__main__":
+    seq=[]
+    seq=simon_round(seq)
+    seq=simon_round(seq)
