@@ -1,0 +1,13 @@
+#170. 🎮 Platformer Game
+# Jump mechanics and parallax scrolling.
+
+def jump(y,velocity):
+    velocity-=1; y+=velocity
+    return y,velocity
+
+def parallax(bg1,bg2,speed):
+    return (bg1-speed)%100,(bg2-speed//2)%100
+
+if __name__ == "__main__":
+    print("Jump:",jump(10,5))
+    print("Parallax:",parallax(50,30,3))
