@@ -1,0 +1,13 @@
+#159. 🏓 Pong Game
+# Ball-paddle collision and score loop.
+
+def pong_step(ball,paddle_x):
+    bx,by,vx,vy=ball
+    bx+=vx; by+=vy
+    if by<=0 or by>=10: vy*=-1
+    if bx==paddle_x: vx*=-1
+    return (bx,by,vx,vy)
+
+if __name__ == "__main__":
+    ball=(5,5,1,1)
+    print(pong_step(ball,10))
