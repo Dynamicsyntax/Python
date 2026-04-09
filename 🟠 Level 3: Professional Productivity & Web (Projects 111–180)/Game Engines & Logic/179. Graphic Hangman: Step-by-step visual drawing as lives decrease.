@@ -1,0 +1,10 @@
+#179. 🪢 Hangman
+# Visual drawing as lives decrease.
+
+def draw(lives):
+    stages=[""," O "," O \n | "," O \n/|\\"," O \n/|\\\n/ \\"]
+    print(stages[5-lives])
+
+if __name__ == "__main__":
+    for lives in range(5,0,-1):
+        draw(lives)
