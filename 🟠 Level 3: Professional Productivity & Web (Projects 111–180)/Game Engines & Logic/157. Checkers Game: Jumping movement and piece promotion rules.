@@ -1,0 +1,10 @@
+#157. 🏁 Checkers Game
+# Simple jump move validation.
+
+def valid_jump(start,end):
+    sx,sy=start; ex,ey=end
+    return abs(ex-sx)==2 and abs(ey-sy)==2
+
+if __name__ == "__main__":
+    print(valid_jump((2,2),(4,4)))
+    print(valid_jump((2,2),(3,3)))
