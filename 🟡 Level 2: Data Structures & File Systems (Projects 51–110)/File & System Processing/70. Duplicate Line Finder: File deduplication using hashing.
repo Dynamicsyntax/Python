@@ -1,9 +1,21 @@
-#70. 🔍 Duplicate Line Finder
-seen, duplicates = set(), set()
-with open("sample.txt", "r") as f:
-    for line in f:
-        if line in seen:
-            duplicates.add(line.strip())
-        else:
-            seen.add(line)
-print("Duplicates:", duplicates)
+# 🔍 Duplicate Line Finder
+# This program finds duplicate lines in a file.
+
+def find_duplicates(filename):
+    try:
+        seen, duplicates = set(), set()
+        with open(filename, "r") as f:
+            for line in f:
+                line = line.strip()
+                if line in seen:
+                    duplicates.add(line)
+                else:
+                    seen.add(line)
+        print("Duplicates:", duplicates)
+    except FileNotFoundError:
+        print(f"Error: File '{filename}' not found.")
+    except Exception as e:
+        print(f"Error: {e}")
+
+if __name__ == "__main__":
+    find_duplicates("sample.txt")
