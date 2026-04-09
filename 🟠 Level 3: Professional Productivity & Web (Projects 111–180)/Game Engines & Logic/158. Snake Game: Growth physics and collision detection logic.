@@ -1,0 +1,15 @@
+#158. 🐍 Snake Game
+# Simplified growth and collision detection.
+
+def move_snake(snake,direction):
+    head=snake[0]
+    dx,dy={"up":(-1,0),"down":(1,0),"left":(0,-1),"right":(0,1)}[direction]
+    new_head=(head[0]+dx,head[1]+dy)
+    if new_head in snake: return "Game Over"
+    snake.insert(0,new_head)
+    snake.pop()
+    return snake
+
+if __name__ == "__main__":
+    snake=[(5,5),(5,4),(5,3)]
+    print(move_snake(snake,"right"))
