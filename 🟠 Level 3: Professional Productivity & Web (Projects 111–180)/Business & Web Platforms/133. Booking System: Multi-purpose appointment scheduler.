@@ -1,0 +1,13 @@
+# booking_system.py
+bookings = []
+
+def book(name, time):
+    if time in [b["time"] for b in bookings]:
+        print("Slot already booked!")
+    else:
+        bookings.append({"name": name, "time": time})
+        print("Booked successfully.")
+
+if __name__ == "__main__":
+    book("Alice", "10AM")
+    book("Bob", "10AM")
