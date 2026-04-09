@@ -1,0 +1,10 @@
+#169. 🪜 Doodle Jump
+# Infinite scrolling with platform generation.
+
+import random
+
+def generate_platforms(n):
+    return [(random.randint(0,10),random.randint(0,10)) for _ in range(n)]
+
+if __name__ == "__main__":
+    print("Platforms:",generate_platforms(5))
