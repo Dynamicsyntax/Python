@@ -1,0 +1,20 @@
+# lms.py
+class LMS:
+    def __init__(self):
+        self.courses = {}
+
+    def add_course(self, name, lessons):
+        self.courses[name] = {"lessons": lessons, "progress": 0}
+
+    def complete_lesson(self, name):
+        self.courses[name]["progress"] += 1
+
+    def dashboard(self):
+        for c, d in self.courses.items():
+            print(f"{c}: {d['progress']}/{len(d['lessons'])} lessons")
+
+if __name__ == "__main__":
+    lms = LMS()
+    lms.add_course("Python", ["Intro", "Loops", "Functions"])
+    lms.complete_lesson("Python")
+    lms.dashboard()
