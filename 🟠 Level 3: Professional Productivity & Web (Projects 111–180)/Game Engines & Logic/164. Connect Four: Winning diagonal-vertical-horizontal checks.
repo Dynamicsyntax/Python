@@ -1,0 +1,14 @@
+#164. 🔴 Connect Four
+# Checks for winning conditions.
+
+def check_win(board,player):
+    for r in range(len(board)):
+        for c in range(len(board[0])):
+            if c+3<len(board[0]) and all(board[r][c+i]==player for i in range(4)): return True
+            if r+3<len(board) and all(board[r+i][c]==player for i in range(4)): return True
+            if r+3<len(board) and c+3<len(board[0]) and all(board[r+i][c+i]==player for i in range(4)): return True
+    return False
+
+if __name__ == "__main__":
+    board=[["X","X","X","X"],["O","O","X","O"],["O","X","O","X"],["X","O","O","X"]]
+    print("Win:",check_win(board,"X"))
