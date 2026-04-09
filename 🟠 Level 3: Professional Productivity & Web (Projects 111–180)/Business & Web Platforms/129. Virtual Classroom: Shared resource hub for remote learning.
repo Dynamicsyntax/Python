@@ -1,0 +1,8 @@
+# virtual_classroom.py
+resources = {"Math": ["Notes.pdf", "Video.mp4"], "History": ["Slides.ppt"]}
+
+def show_resources(subject):
+    print(f"Resources for {subject}: {resources.get(subject, [])}")
+
+if __name__ == "__main__":
+    show_resources("Math")
