@@ -1,0 +1,12 @@
+# business_website.py
+services = ["Consulting", "Design", "Development"]
+
+def landing_page():
+    print("Business Landing Page")
+    print("Services Offered:")
+    for s in services:
+        print("-", s)
+    print("SEO Keywords: business, consulting, design, development")
+
+if __name__ == "__main__":
+    landing_page()
