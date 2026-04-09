@@ -1,0 +1,12 @@
+#168. 🐦 Flappy Bird
+# Gravity, velocity, and pipe collision.
+
+def step(y,velocity,pipes):
+    velocity+=1; y+=velocity
+    for px,py in pipes:
+        if px==5 and not(py<y<py+3): return "Collision!"
+    return y,velocity
+
+if __name__ == "__main__":
+    pipes=[(5,2)]
+    print(step(3,-2,pipes))
