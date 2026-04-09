@@ -1,0 +1,21 @@
+# comment_system.py
+class Comment:
+    def __init__(self, text):
+        self.text = text
+        self.replies = []
+
+    def add_reply(self, reply):
+        self.replies.append(reply)
+
+    def display(self, level=0):
+        print("  " * level + self.text)
+        for r in self.replies:
+            r.display(level + 1)
+
+if __name__ == "__main__":
+    root = Comment("This is the main comment")
+    reply1 = Comment("First reply")
+    reply2 = Comment("Nested reply to first")
+    reply1.add_reply(reply2)
+    root.add_reply(reply1)
+    root.display()
