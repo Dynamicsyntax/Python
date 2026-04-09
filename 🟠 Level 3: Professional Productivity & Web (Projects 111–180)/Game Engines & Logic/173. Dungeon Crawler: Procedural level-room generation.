@@ -1,0 +1,13 @@
+#173. 🏰 Dungeon Crawler
+# Procedural level generation.
+
+import random
+
+def generate_dungeon(rooms=3):
+    dungeon = []
+    for i in range(rooms):
+        dungeon.append({"room":i+1,"monsters":random.randint(0,3),"treasure":random.choice([True,False])})
+    return dungeon
+
+if __name__ == "__main__":
+    print("Dungeon:", generate_dungeon())
