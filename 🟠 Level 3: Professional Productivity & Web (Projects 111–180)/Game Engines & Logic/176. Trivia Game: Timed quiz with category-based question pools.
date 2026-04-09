@@ -1,0 +1,16 @@
+#176. ❓ Trivia Game
+# Timed quiz with categories.
+
+import time
+
+def trivia(question,answer):
+    print(question)
+    start=time.time()
+    user="Paris"  # simulate input
+    if user.lower()==answer.lower() and time.time()-start<10:
+        print("Correct!")
+    else:
+        print("Wrong or too slow.")
+
+if __name__ == "__main__":
+    trivia("Capital of France?","Paris")
