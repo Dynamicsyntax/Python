@@ -1,0 +1,17 @@
+# flashcard_app.py
+import time
+
+flashcards = [
+    {"question": "Capital of France?", "answer": "Paris", "interval": 5},
+    {"question": "2+2?", "answer": "4", "interval": 3}
+]
+
+def review():
+    for card in flashcards:
+        print(card["question"])
+        input("Press Enter to see answer...")
+        print("Answer:", card["answer"])
+        time.sleep(card["interval"])
+
+if __name__ == "__main__":
+    review()
