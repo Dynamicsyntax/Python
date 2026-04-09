@@ -1,0 +1,16 @@
+#166. 🚢 Battleship
+# Ship placement and hit/miss logic.
+
+def place_ship(board,coords):
+    for x,y in coords: board[x][y]="S"
+
+def attack(board,x,y):
+    if board[x][y]=="S":
+        board[x][y]="X"; return "Hit!"
+    return "Miss!"
+
+if __name__ == "__main__":
+    board=[["."]*5 for _ in range(5)]
+    place_ship(board,[(1,1),(1,2)])
+    print(attack(board,1,1))
+    print(attack(board,0,0))
