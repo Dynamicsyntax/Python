@@ -1,0 +1,14 @@
+# cms_dashboard.py
+pages = {"Home": "Welcome!", "About": "About us page"}
+
+def update_page(page, content):
+    pages[page] = content
+
+def show_dashboard():
+    for p, c in pages.items():
+        print(f"{p}: {c}")
+
+if __name__ == "__main__":
+    show_dashboard()
+    update_page("Home", "Updated welcome message")
+    show_dashboard()
