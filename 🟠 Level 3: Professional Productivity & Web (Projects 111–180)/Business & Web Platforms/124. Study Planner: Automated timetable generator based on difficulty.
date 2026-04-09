@@ -1,0 +1,14 @@
+# study_planner.py
+subjects = [
+    {"name": "Math", "difficulty": 5},
+    {"name": "History", "difficulty": 2},
+    {"name": "Science", "difficulty": 4}
+]
+
+def generate_plan():
+    print("Study Timetable:")
+    for s in sorted(subjects, key=lambda x: -x["difficulty"]):
+        print(f"{s['name']} - {s['difficulty']} hours")
+
+if __name__ == "__main__":
+    generate_plan()
