@@ -1,0 +1,13 @@
+# reservation_system.py
+rooms = {"Room1": None, "Room2": None}
+
+def reserve(room, user):
+    if rooms[room] is None:
+        rooms[room] = user
+        print(f"{room} reserved for {user}")
+    else:
+        print(f"{room} already reserved by {rooms[room]}")
+
+if __name__ == "__main__":
+    reserve("Room1", "Alice")
+    reserve("Room1", "Bob")
