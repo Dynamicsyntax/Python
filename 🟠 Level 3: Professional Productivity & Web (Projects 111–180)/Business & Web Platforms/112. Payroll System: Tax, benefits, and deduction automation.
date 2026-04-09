@@ -1,0 +1,10 @@
+# payroll_system.py
+def calculate_pay(base_salary, tax_rate=0.1, benefits=500, deductions=200):
+    tax = base_salary * tax_rate
+    net_salary = base_salary - tax + benefits - deductions
+    return {"Base": base_salary, "Tax": tax, "Net": net_salary}
+
+if __name__ == "__main__":
+    salary = 5000
+    result = calculate_pay(salary)
+    print("Payroll Summary:", result)
