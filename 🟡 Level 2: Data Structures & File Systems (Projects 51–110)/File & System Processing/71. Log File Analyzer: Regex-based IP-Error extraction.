@@ -1,11 +1,20 @@
 # 📝 Log File Analyzer
+# This program extracts IP addresses and error lines from a log file.
+
 import re
 
-with open("server.log", "r") as f:
-    logs = f.read()
+def analyze_log(filename):
+    try:
+        with open(filename, "r") as f:
+            logs = f.read()
+        ips = re.findall(r'\d+\.\d+\.\d+\.\d+', logs)
+        errors = re.findall(r'ERROR.*', logs)
+        print("IPs:", set(ips))
+        print("Errors:", errors)
+    except FileNotFoundError:
+        print(f"Error: File '{filename}' not found.")
+    except Exception as e:
+        print(f"Error: {e}")
 
-ips = re.findall(r'\d+\.\d+\.\d+\.\d+', logs)
-errors = re.findall(r'ERROR.*', logs)
-
-print("IPs:", set(ips))
-print("Errors:", errors)
+if __name__ == "__main__":
+    analyze_log("server.log")
