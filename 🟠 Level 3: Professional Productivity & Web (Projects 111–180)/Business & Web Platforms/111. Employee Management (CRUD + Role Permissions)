@@ -1,0 +1,22 @@
+class Employee:
+    def __init__(self, emp_id, name, role):
+        self.emp_id = emp_id
+        self.name = name
+        self.role = role
+
+class EmployeeManager:
+    def __init__(self):
+        self.employees = {}
+
+    def create(self, emp_id, name, role):
+        self.employees[emp_id] = Employee(emp_id, name, role)
+
+    def read(self, emp_id):
+        return vars(self.employees.get(emp_id, "Not Found"))
+
+    def update(self, emp_id, role):
+        if emp_id in self.employees:
+            self.employees[emp_id].role = role
+
+    def delete(self, emp_id):
+        self.employees.pop(emp_id, None)
