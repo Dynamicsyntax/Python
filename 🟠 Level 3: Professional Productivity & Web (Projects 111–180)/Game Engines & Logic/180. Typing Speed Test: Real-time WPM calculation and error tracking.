@@ -1,0 +1,16 @@
+#180. ⌨️ Typing Speed Test
+# Real-time WPM calculation.
+
+import time
+
+def typing_test(text):
+    print("Type:",text)
+    start=time.time()
+    typed=text  # simulate input
+    elapsed=time.time()-start
+    wpm=len(text.split())/(elapsed/60)
+    errors=sum(1 for a,b in zip(text,typed) if a!=b)
+    print(f"WPM: {wpm:.2f}, Errors: {errors}")
+
+if __name__ == "__main__":
+    typing_test("hello world")
