@@ -1,0 +1,15 @@
+#177. 🔍 Word Search
+# Dynamic grid generation with hidden word logic.
+
+import random
+import string
+
+def generate_grid(size,word):
+    grid=[[random.choice(string.ascii_uppercase) for _ in range(size)] for _ in range(size)]
+    for i,c in enumerate(word):
+        grid[0][i]=c.upper()
+    return grid
+
+if __name__ == "__main__":
+    grid=generate_grid(5,"cat")
+    for row in grid: print(row)
