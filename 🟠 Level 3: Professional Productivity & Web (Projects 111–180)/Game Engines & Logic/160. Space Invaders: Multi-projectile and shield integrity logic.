@@ -1,0 +1,14 @@
+#160. 👾 Space Invaders
+# Simplified projectile and shield logic.
+
+def shoot(invaders,shield):
+    if invaders and shield>0:
+        invaders.pop()
+        shield-=1
+    return invaders,shield
+
+if __name__ == "__main__":
+    invaders=["alien1","alien2","alien3"]
+    shield=3
+    invaders,shield=shoot(invaders,shield)
+    print("Remaining:",invaders,"Shield:",shield)
