@@ -1,0 +1,15 @@
+# support_ticket.py
+tickets = []
+
+def log_ticket(client, issue):
+    tickets.append({"client": client, "issue": issue, "status": "Pending"})
+
+def resolve_ticket(client):
+    for t in tickets:
+        if t["client"] == client:
+            t["status"] = "Resolved"
+
+if __name__ == "__main__":
+    log_ticket("ClientA", "Payment issue")
+    resolve_ticket("ClientA")
+    print(tickets)
