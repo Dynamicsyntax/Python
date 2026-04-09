@@ -1,4 +1,4 @@
-#67. 📂 Reverse File Content
+# 📂 Reverse File Content
 with open("sample.txt", "r") as f:
     for line in reversed(list(f)):
         print(line.strip())
