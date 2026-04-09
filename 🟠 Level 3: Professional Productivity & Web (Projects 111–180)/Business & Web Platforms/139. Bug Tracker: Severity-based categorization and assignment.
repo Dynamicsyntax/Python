@@ -1,0 +1,27 @@
+# bug_tracker.py
+bugs = []
+
+def report_bug(title, severity, assignee=None):
+    bugs.append({"title": title, "severity": severity, "assignee": assignee, "status": "Open"})
+
+def assign_bug(title, assignee):
+    for b in bugs:
+        if b["title"] == title:
+            b["assignee"] = assignee
+
+def resolve_bug(title):
+    for b in bugs:
+        if b["title"] == title:
+            b["status"] = "Resolved"
+
+def show_bugs():
+    for b in sorted(bugs, key=lambda x: x["severity"], reverse=True):
+        print(f"{b['title']} - Severity {b['severity']} - {b['status']} (Assigned to {b['assignee']})")
+
+if __name__ == "__main__":
+    report_bug("Crash on startup", 5)
+    report_bug("UI glitch", 2)
+    assign_bug("Crash on startup", "Alice")
+    show_bugs()
+    resolve_bug("Crash on startup")
+    show_bugs()
