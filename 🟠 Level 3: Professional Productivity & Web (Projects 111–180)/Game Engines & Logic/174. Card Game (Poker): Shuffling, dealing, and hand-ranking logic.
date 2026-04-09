@@ -1,0 +1,14 @@
+#174. ♠️ Poker Game
+# Shuffling, dealing, and hand ranking.
+
+import random
+
+def deal(deck, players=2, cards=5):
+    random.shuffle(deck)
+    hands = [deck[i*cards:(i+1)*cards] for i in range(players)]
+    return hands
+
+if __name__ == "__main__":
+    deck = [r+s for r in "23456789TJQKA" for s in "♠♥♦♣"]
+    hands = deal(deck)
+    print("Hands:", hands)
