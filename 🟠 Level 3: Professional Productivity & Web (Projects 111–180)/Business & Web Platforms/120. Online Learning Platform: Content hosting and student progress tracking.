@@ -1,0 +1,21 @@
+# online_learning.py
+class Course:
+    def __init__(self, title, lessons):
+        self.title = title
+        self.lessons = lessons
+        self.progress = 0
+
+    def complete_lesson(self):
+        if self.progress < len(self.lessons):
+            self.progress += 1
+
+    def __repr__(self):
+        return f"{self.title}: {self.progress}/{len(self.lessons)} lessons completed"
+
+if __name__ == "__main__":
+    course = Course("Python Basics", ["Intro", "Loops", "Functions"])
+    print(course)
+    course.complete_lesson()
+    print(course)
+    course.complete_lesson()
+    print(course)
