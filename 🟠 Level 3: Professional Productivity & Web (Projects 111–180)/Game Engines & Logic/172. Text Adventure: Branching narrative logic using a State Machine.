@@ -1,0 +1,14 @@
+# 📖 Text Adventure
+# Branching narrative using a state machine.
+
+def play(state):
+    if state=="start":
+        print("You are in a forest. Go left or right?")
+    elif state=="left":
+        print("You meet a dragon!")
+    elif state=="right":
+        print("You find treasure!")
+
+if __name__ == "__main__":
+    play("start")
+    play("right")
