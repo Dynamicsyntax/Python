@@ -1,7 +1,18 @@
-#69. 📊 CSV Sum Calculator
+# 📊 CSV Sum Calculator
+# This program calculates the sum of a numeric column in a CSV file.
+
 import csv
 
-with open("data.csv", newline='') as f:
-    reader = csv.DictReader(f)
-    total = sum(float(row["Amount"]) for row in reader)
-print("Total Amount:", total)
+def csv_sum(filename, column):
+    try:
+        with open(filename, newline='') as f:
+            reader = csv.DictReader(f)
+            total = sum(float(row[column]) for row in reader)
+            print(f"Sum of '{column}': {total}")
+    except FileNotFoundError:
+        print(f"Error: File '{filename}' not found.")
+    except Exception as e:
+        print(f"Error: {e}")
+
+if __name__ == "__main__":
+    csv_sum("data.csv", "Amount")
