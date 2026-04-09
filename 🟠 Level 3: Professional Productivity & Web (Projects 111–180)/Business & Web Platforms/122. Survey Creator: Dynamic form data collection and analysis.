@@ -1,0 +1,19 @@
+# survey_creator.py
+responses = []
+
+def create_survey(questions):
+    print("Survey Started:")
+    answers = {}
+    for q in questions:
+        answers[q] = input(f"{q}: ")
+    responses.append(answers)
+
+def analyze():
+    print("\nSurvey Analysis:")
+    for i, r in enumerate(responses, 1):
+        print(f"Response {i}: {r}")
+
+if __name__ == "__main__":
+    questions = ["Name", "Age", "Favorite Subject"]
+    create_survey(questions)
+    analyze()
