@@ -1,0 +1,16 @@
+# feedback_system.py
+feedbacks = []
+
+def add_feedback(user, comment, rating):
+    sentiment = "Positive" if rating >= 4 else "Negative" if rating <= 2 else "Neutral"
+    feedbacks.append({"user": user, "comment": comment, "rating": rating, "sentiment": sentiment})
+
+def analyze_feedback():
+    for f in feedbacks:
+        print(f"{f['user']} ({f['rating']}★) - {f['sentiment']}: {f['comment']}")
+
+if __name__ == "__main__":
+    add_feedback("Alice", "Great course!", 5)
+    add_feedback("Bob", "Too fast-paced", 2)
+    add_feedback("Charlie", "Good but needs improvement", 3)
+    analyze_feedback()
