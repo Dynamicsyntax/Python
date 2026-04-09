@@ -1,4 +1,16 @@
 # 📂 Reverse File Content
-with open("sample.txt", "r") as f:
-    for line in reversed(list(f)):
-        print(line.strip())
+# This program reads a file and prints its lines in reverse order.
+
+def reverse_file_content(filename):
+    try:
+        with open(filename, "r") as f:
+            lines = f.readlines()
+            for line in reversed(lines):
+                print(line.strip())
+    except FileNotFoundError:
+        print(f"Error: File '{filename}' not found.")
+    except Exception as e:
+        print(f"Error: {e}")
+
+if __name__ == "__main__":
+    reverse_file_content("sample.txt")
