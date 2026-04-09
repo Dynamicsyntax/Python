@@ -1,8 +1,19 @@
-#72. 🌐 HTML Table Parser
+#72 🌐 HTML Table Parser
+# This program parses table data from an HTML file.
+
 from bs4 import BeautifulSoup
 
-html = "<table><tr><td>A</td><td>B</td></tr></table>"
-soup = BeautifulSoup(html, "html.parser")
+def parse_html_table(filename):
+    try:
+        with open(filename, "r") as f:
+            html = f.read()
+        soup = BeautifulSoup(html, "html.parser")
+        rows = [[cell.text for cell in row.find_all("td")] for row in soup.find_all("tr")]
+        print("Parsed Table:", rows)
+    except FileNotFoundError:
+        print(f"Error: File '{filename}' not found.")
+    except Exception as e:
+        print(f"Error: {e}")
 
-rows = [[cell.text for cell in row.find_all("td")] for row in soup.find_all("tr")]
-print("Parsed Table:", rows)
+if __name__ == "__main__":
+    parse_html_table("table.html")
