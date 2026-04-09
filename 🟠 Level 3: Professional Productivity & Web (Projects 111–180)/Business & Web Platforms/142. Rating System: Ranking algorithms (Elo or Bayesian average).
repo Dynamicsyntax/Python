@@ -1,0 +1,10 @@
+# rating_system.py
+def elo_rating(rating_a, rating_b, score_a, k=32):
+    expected_a = 1 / (1 + 10 ** ((rating_b - rating_a) / 400))
+    new_rating_a = rating_a + k * (score_a - expected_a)
+    new_rating_b = rating_b + k * ((1 - score_a) - (1 - expected_a))
+    return round(new_rating_a), round(new_rating_b)
+
+if __name__ == "__main__":
+    rA, rB = elo_rating(1600, 1500, 1)  # A wins
+    print("New Ratings:", rA, rB)
