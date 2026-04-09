@@ -1,0 +1,12 @@
+#156.Chess Game
+# Simplified move validation for pawns.
+
+def valid_pawn_move(start,end,color):
+    sx,sy=start; ex,ey=end
+    if color=="white" and ex==sx-1 and sy==ey: return True
+    if color=="black" and ex==sx+1 and sy==ey: return True
+    return False
+
+if __name__ == "__main__":
+    print(valid_pawn_move((6,0),(5,0),"white"))
+    print(valid_pawn_move((1,0),(2,0),"black"))
