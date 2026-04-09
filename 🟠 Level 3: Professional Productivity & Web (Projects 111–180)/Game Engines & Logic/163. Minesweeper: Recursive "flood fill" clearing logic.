@@ -1,0 +1,17 @@
+#163. 💣 Minesweeper
+# Recursive flood fill clearing logic.
+
+def flood_fill(board, x, y, visited):
+    if (x,y) in visited or board[x][y]=="M": return
+    visited.add((x,y))
+    if board[x][y]==0:
+        for dx,dy in [(1,0),(-1,0),(0,1),(0,-1)]:
+            nx,ny=x+dx,y+dy
+            if 0<=nx<len(board) and 0<=ny<len(board[0]):
+                flood_fill(board,nx,ny,visited)
+
+if __name__ == "__main__":
+    board=[[0,"M",0],[0,0,0],[0,"M",0]]
+    visited=set()
+    flood_fill(board,0,0,visited)
+    print("Cleared:",visited)
