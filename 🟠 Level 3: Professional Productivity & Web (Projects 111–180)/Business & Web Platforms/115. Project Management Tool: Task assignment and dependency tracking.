@@ -1,0 +1,21 @@
+# project_management.py
+class ProjectTask:
+    def __init__(self, name):
+        self.name = name
+        self.dependencies = []
+
+    def add_dependency(self, task):
+        self.dependencies.append(task)
+
+    def __repr__(self):
+        deps = [d.name for d in self.dependencies]
+        return f"{self.name} depends on {deps}"
+
+if __name__ == "__main__":
+    taskA = ProjectTask("Design")
+    taskB = ProjectTask("Development")
+    taskC = ProjectTask("Testing")
+    taskB.add_dependency(taskA)
+    taskC.add_dependency(taskB)
+    print(taskB)
+    print(taskC)
