@@ -1,0 +1,13 @@
+# ⚔️ RPG Combat
+# Stats-driven turn-based battle engine.
+
+def attack(attacker, defender):
+    damage = max(0, attacker["attack"] - defender["defense"])
+    defender["hp"] -= damage
+    print(f"{attacker['name']} hits {defender['name']} for {damage} damage!")
+
+if __name__ == "__main__":
+    hero = {"name":"Hero","hp":50,"attack":12,"defense":5}
+    monster = {"name":"Monster","hp":40,"attack":8,"defense":3}
+    attack(hero, monster)
+    print("Monster HP:", monster["hp"])
