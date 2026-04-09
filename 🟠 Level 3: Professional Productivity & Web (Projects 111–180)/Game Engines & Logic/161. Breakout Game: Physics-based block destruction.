@@ -1,0 +1,19 @@
+#161. 🧱 Breakout Game
+# Physics-based block destruction simulation.
+
+def breakout_step(ball, blocks):
+    bx, by, vx, vy = ball
+    bx += vx; by += vy
+    for block in blocks:
+        if (bx, by) == block:
+            blocks.remove(block)
+            vy *= -1
+            print("Block destroyed:", block)
+            break
+    return (bx, by, vx, vy), blocks
+
+if __name__ == "__main__":
+    ball = (2, 2, 1, -1)
+    blocks = [(3, 1), (4, 2)]
+    ball, blocks = breakout_step(ball, blocks)
+    print("Ball:", ball, "Blocks:", blocks)
