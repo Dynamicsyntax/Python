@@ -1,0 +1,15 @@
+# issue_tracker.py
+issues = []
+
+def add_issue(title, type_):
+    issues.append({"title": title, "type": type_, "status": "Open"})
+
+def close_issue(title):
+    for i in issues:
+        if i["title"] == title:
+            i["status"] = "Closed"
+
+if __name__ == "__main__":
+    add_issue("Bug in login", "Bug")
+    add_issue("Add dark mode", "Feature")
+    close_issue("
