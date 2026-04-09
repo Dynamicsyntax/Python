@@ -1,0 +1,17 @@
+# course_registration.py
+courses = {
+    "Advanced Math": ["Basic Math"],
+    "Physics": ["Science Basics"]
+}
+completed = ["Basic Math"]
+
+def register(course):
+    prereqs = courses.get(course, [])
+    if all(p in completed for p in prereqs):
+        print(f"Registered for {course}")
+    else:
+        print(f"Missing prerequisites: {prereqs}")
+
+if __name__ == "__main__":
+    register("Advanced Math")
+    register("Physics")
