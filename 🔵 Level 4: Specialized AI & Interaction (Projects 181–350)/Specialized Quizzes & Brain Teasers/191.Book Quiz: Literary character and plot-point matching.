@@ -1,0 +1,9 @@
+#191. 📚 Book Quiz: Literary character and plot-point matching.
+# Matches characters to books.
+
+def book_quiz(character):
+    books={"Harry Potter":"Harry Potter","Elizabeth Bennet":"Pride and Prejudice"}
+    return books.get(character,"Unknown")
+
+if __name__ == "__main__":
+    print(book_quiz("Elizabeth Bennet"))
