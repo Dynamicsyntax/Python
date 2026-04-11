@@ -1,0 +1,9 @@
+#187. 🎨 Art Quiz: Artistic movement and artist identification.
+# Matches artist to movement.
+
+def art_quiz(artist):
+    movements={"Picasso":"Cubism","Van Gogh":"Post-Impressionism"}
+    return movements.get(artist,"Unknown")
+
+if __name__ == "__main__":
+    print("Picasso:",art_quiz("Picasso"))
