@@ -1,0 +1,9 @@
+#190. 📺 TV Show Quiz: Episodic knowledge tests with spoiler-tag logic.
+# Matches episodes to shows.
+
+def tv_quiz(episode):
+    shows={"Pilot":"Breaking Bad","The One Where...":"Friends"}
+    return shows.get(episode,"Unknown")
+
+if __name__ == "__main__":
+    print(tv_quiz("Pilot"))
