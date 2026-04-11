@@ -1,0 +1,12 @@
+#181. ⌨️ Typing Tutor: Analytics-driven key-struggle tracking.
+# Tracks which keys a user struggles with most.
+
+def analyze_typing(text, typed):
+    struggles = {}
+    for i,(a,b) in enumerate(zip(text,typed)):
+        if a!=b:
+            struggles[a] = struggles.get(a,0)+1
+    print("Key struggles:", struggles)
+
+if __name__ == "__main__":
+    analyze_typing("hello world","hezlo worle")
