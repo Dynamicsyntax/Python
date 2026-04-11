@@ -1,0 +1,9 @@
+#199. 🔒 Encryption Tool: RSA (Asymmetric) and AES (Symmetric) logic.
+# Simplified RSA-like encryption.
+
+def rsa_encrypt(msg,key):
+    return [pow(ord(c),key[0],key[1]) for c in msg]
+
+if __name__ == "__main__":
+    public=(3,55) # (e,n)
+    print(rsa_encrypt("HI",public))
