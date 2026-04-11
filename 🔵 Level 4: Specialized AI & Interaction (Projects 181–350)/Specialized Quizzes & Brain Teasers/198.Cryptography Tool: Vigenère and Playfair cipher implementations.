@@ -1,0 +1,12 @@
+#198. 🔐 Cryptography Tool: Vigenère and Playfair cipher implementations.
+# Implements simple Vigenère cipher.
+
+def vigenere_encrypt(text,key):
+    result=""
+    for i,c in enumerate(text):
+        shift=ord(key[i%len(key)])-65
+        result+=chr((ord(c)-65+shift)%26+65)
+    return result
+
+if __name__ == "__main__":
+    print(vigenere_encrypt("HELLO","KEY"))
