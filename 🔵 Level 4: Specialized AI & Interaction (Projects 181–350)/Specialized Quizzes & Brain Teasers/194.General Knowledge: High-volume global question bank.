@@ -1,0 +1,9 @@
+#194. 🌐 General Knowledge: High-volume global question bank.
+# Simple Q&A logic.
+
+def general_knowledge(question):
+    answers={"Capital of France":"Paris","Largest ocean":"Pacific"}
+    return answers.get(question,"Unknown")
+
+if __name__ == "__main__":
+    print(general_knowledge("Capital of France"))
