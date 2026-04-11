@@ -1,0 +1,11 @@
+#183. 🐝 Spelling Bee: Audio-integration for voice-based testing.
+# Simulates spelling test logic.
+
+def spelling_test(word, attempt):
+    if word.lower()==attempt.lower():
+        print("Correct!")
+    else:
+        print("Incorrect. Word was:",word)
+
+if __name__ == "__main__":
+    spelling_test("accommodate","acommodate")
