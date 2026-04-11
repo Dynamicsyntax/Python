@@ -1,0 +1,9 @@
+#193. 🌟 Celebrity Quiz: Image-based and biography identification.
+# Matches celebrity names to professions.
+
+def celeb_quiz(name):
+    celebs={"Taylor Swift":"Singer","Elon Musk":"Entrepreneur"}
+    return celebs.get(name,"Unknown")
+
+if __name__ == "__main__":
+    print(celeb_quiz("Taylor Swift"))
