@@ -1,0 +1,9 @@
+#197. 🤔 Riddle Solver: Semantic matching for text-based riddles.
+# Matches riddles to answers.
+
+def riddle_solver(riddle):
+    riddles={"What has keys but no locks?":"Keyboard"}
+    return riddles.get(riddle,"Unknown")
+
+if __name__ == "__main__":
+    print(riddle_solver("What has keys but no locks?"))
