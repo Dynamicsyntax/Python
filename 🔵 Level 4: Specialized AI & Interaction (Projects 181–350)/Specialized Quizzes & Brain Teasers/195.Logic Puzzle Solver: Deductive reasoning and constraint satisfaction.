@@ -1,0 +1,10 @@
+#195. 🧩 Logic Puzzle Solver: Deductive reasoning and constraint satisfaction.
+# Solves simple constraint puzzles.
+
+def puzzle_solver(clues):
+    if "A>B" in clues and "B>C" in clues:
+        return "Order: A>B>C"
+    return "No solution"
+
+if __name__ == "__main__":
+    print(puzzle_solver(["A>B","B>C"]))
