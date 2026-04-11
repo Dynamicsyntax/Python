@@ -1,0 +1,13 @@
+#196. 🧠 Brain Teaser Collection: Multi-step hint reveal system.
+# Reveals hints step by step.
+
+def brain_teaser(answer,attempt,hints):
+    if attempt==answer:
+        return "Correct!"
+    else:
+        return hints.pop(0) if hints else "No more hints."
+
+if __name__ == "__main__":
+    hints=["It’s an animal","It barks"]
+    print(brain_teaser("dog","cat",hints))
+    print(brain_teaser("dog","dog",hints))
