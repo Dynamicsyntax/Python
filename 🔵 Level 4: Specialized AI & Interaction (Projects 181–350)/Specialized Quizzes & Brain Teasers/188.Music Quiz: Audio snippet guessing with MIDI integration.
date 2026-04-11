@@ -1,0 +1,11 @@
+#188. 🎵 Music Quiz: Audio snippet guessing with MIDI integration.
+# Simulates music snippet guessing.
+
+def music_quiz(snippet,guess):
+    if snippet==guess:
+        print("Correct!")
+    else:
+        print("Wrong. It was:",snippet)
+
+if __name__ == "__main__":
+    music_quiz("Beethoven Symphony","Mozart Symphony")
