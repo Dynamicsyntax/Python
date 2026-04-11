@@ -1,0 +1,9 @@
+#184. 🌍 Geography Quiz: Coordinate-to-image mapping logic.
+# Matches coordinates to locations.
+
+def geo_quiz(coord):
+    locations={(40.7,-74.0):"New York",(48.8,2.3):"Paris"}
+    return locations.get(coord,"Unknown")
+
+if __name__ == "__main__":
+    print("Location:",geo_quiz((48.8,2.3)))
