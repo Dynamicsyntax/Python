@@ -1,0 +1,9 @@
+#185. 📜 History Quiz: Interactive timeline sorting algorithms.
+# Sorts events chronologically.
+
+def history_quiz(events):
+    return sorted(events,key=lambda e:e[1])
+
+if __name__ == "__main__":
+    events=[("WWII",1939),("Moon Landing",1969),("French Revolution",1789)]
+    print(history_quiz(events))
