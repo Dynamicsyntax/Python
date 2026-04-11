@@ -1,0 +1,14 @@
+#182. ➗ Math Quiz Generator: Procedural arithmetic with difficulty scaling.
+# Generates arithmetic questions based on difficulty.
+
+import random
+
+def generate_quiz(level=1):
+    a,b = random.randint(1,10*level), random.randint(1,10*level)
+    op = random.choice(["+","-","*"])
+    question = f"{a} {op} {b}"
+    answer = eval(question)
+    print("Q:",question,"A:",answer)
+
+if __name__ == "__main__":
+    generate_quiz(2)
