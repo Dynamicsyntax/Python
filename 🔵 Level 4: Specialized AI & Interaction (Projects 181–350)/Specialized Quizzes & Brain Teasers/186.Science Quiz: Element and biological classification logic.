@@ -1,0 +1,9 @@
+#186. 🔬 Science Quiz: Element and biological classification logic.
+# Identifies element groups.
+
+def classify_element(symbol):
+    groups={"H":"Nonmetal","O":"Nonmetal","Fe":"Metal"}
+    return groups.get(symbol,"Unknown")
+
+if __name__ == "__main__":
+    print("Fe:",classify_element("Fe"))
