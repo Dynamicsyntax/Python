@@ -1,0 +1,9 @@
+#192. 🏅 Sports Quiz: Real-time stat integration for live trivia.
+# Matches players to sports.
+
+def sports_quiz(player):
+    players={"Messi":"Football","Federer":"Tennis"}
+    return players.get(player,"Unknown")
+
+if __name__ == "__main__":
+    print(sports_quiz("Messi"))
