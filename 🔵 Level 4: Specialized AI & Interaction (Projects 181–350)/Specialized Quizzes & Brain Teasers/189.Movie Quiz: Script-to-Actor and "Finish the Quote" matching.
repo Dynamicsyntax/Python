@@ -1,0 +1,9 @@
+#189. 🎬 Movie Quiz: Script-to-Actor and "Finish the Quote" matching.
+# Matches quotes to actors.
+
+def movie_quiz(quote):
+    quotes={"I'll be back":"Arnold Schwarzenegger","May the Force be with you":"Star Wars"}
+    return quotes.get(quote,"Unknown")
+
+if __name__ == "__main__":
+    print(movie_quiz("I'll be back"))
